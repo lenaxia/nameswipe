@@ -10,7 +10,9 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate"
+    "db:migrate": "drizzle-kit migrate",
+    "data:validate": "tsx src/data/cli/validate.ts",
+    "data:seed": "tsx src/data/cli/seed.ts"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",

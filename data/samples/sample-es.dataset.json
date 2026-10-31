@@ -1,0 +1,26 @@
+{
+  "key": "sample-es",
+  "name": "Sample: Spanish",
+  "description": "Pipeline demonstration fixture showing accented spellings that merge with their unaccented US forms (illustrative, not curated data).",
+  "sort_order": 30,
+  "entries": [
+    {
+      "name": "José",
+      "gender": "boy",
+      "meaning": "God will add",
+      "origin": "Hebrew, via Joseph",
+      "tier": "popular"
+    },
+    { "name": "Lucía", "gender": "girl", "meaning": "light", "origin": "Latin" },
+    { "name": "Santiago", "gender": "boy", "meaning": "Saint James", "origin": "Latin" },
+    {
+      "name": "Sofía",
+      "gender": "girl",
+      "meaning": "wisdom",
+      "origin": "Greek",
+      "popularity_rank": 60
+    },
+    { "name": "Inés", "gender": "girl", "meaning": "pure, holy", "origin": "Greek, via Agnes" },
+    { "name": "Mateo", "gender": "boy", "meaning": "gift of God", "origin": "Hebrew, via Matthew" }
+  ]
+}
