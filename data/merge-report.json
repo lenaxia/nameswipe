@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-10-31T18:53:09.589Z",
+  "data_dir": "data/samples",
+  "datasets": [
+    {
+      "key": "sample-us",
+      "name": "Sample: US popular",
+      "sort_order": 10,
+      "entries": 7
+    },
+    {
+      "key": "sample-nordic",
+      "name": "Sample: Nordic",
+      "sort_order": 20,
+      "entries": 6
+    },
+    {
+      "key": "sample-es",
+      "name": "Sample: Spanish",
+      "sort_order": 30,
+      "entries": 6
+    }
+  ],
+  "totals": {
+    "datasets": 3,
+    "entries": 19,
+    "canonical_names": 16,
+    "merged_names": 3,
+    "name_entry_rows": 19
+  },
+  "tiers": {
+    "popular": 9,
+    "uncommon": 2,
+    "rare": 2,
+    "unranked": 6
+  },
+  "gender_tags": {
+    "boy": 7,
+    "girl": 9,
+    "neutral": 1
+  },
+  "merges": [
+    {
+      "normalized_key": "jose",
+      "display": "Jose",
+      "gender_tags": [
+        "boy"
+      ],
+      "spellings": {
+        "Jose": 1,
+        "José": 1
+      },
+      "datasets": [
+        "sample-us",
+        "sample-es"
+      ]
+    },
+    {
+      "normalized_key": "kai",
+      "display": "Kai",
+      "gender_tags": [
+        "boy",
+        "neutral"
+      ],
+      "spellings": {
+        "Kai": 2
+      },
+      "datasets": [
+        "sample-us",
+        "sample-nordic"
+      ]
+    },
+    {
+      "normalized_key": "sofia",
+      "display": "Sofia",
+      "gender_tags": [
+        "girl"
+      ],
+      "spellings": {
+        "Sofia": 1,
+        "Sofía": 1
+      },
+      "datasets": [
+        "sample-us",
+        "sample-es"
+      ]
+    }
+  ]
+}

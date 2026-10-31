@@ -1,0 +1,37 @@
+{
+  "key": "sample-nordic",
+  "name": "Sample: Nordic",
+  "description": "Pipeline demonstration fixture with diacritic-rich spellings and tier-band spread (illustrative ranks, not curated data).",
+  "sort_order": 20,
+  "entries": [
+    {
+      "name": "Astrid",
+      "gender": "girl",
+      "meaning": "divinely beautiful",
+      "origin": "Old Norse",
+      "popularity_rank": 600
+    },
+    {
+      "name": "Björn",
+      "gender": "boy",
+      "meaning": "bear",
+      "origin": "Old Norse",
+      "popularity_rank": 750
+    },
+    {
+      "name": "Freja",
+      "gender": "girl",
+      "meaning": "lady",
+      "origin": "Old Norse",
+      "popularity_rank": 2001,
+      "tier": "rare"
+    },
+    { "name": "Maja", "gender": "girl", "popularity_rank": 1200 },
+    { "name": "Åsa", "gender": "girl", "meaning": "goddess", "origin": "Old Norse" },
+    {
+      "name": "Kai",
+      "gender": "neutral",
+      "meaning": "variously sea, victory, or fire across Nordic languages"
+    }
+  ]
+}

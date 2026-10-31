@@ -1,0 +1,45 @@
+{
+  "key": "sample-us",
+  "name": "Sample: US popular",
+  "description": "Pipeline demonstration fixture with SSA-style ranks (approximate, illustrative only — not curated data; the real us-popular dataset lands in its own story).",
+  "sort_order": 10,
+  "entries": [
+    {
+      "name": "Liam",
+      "gender": "boy",
+      "meaning": "resolute protector",
+      "origin": "Germanic, via William",
+      "popularity_rank": 1
+    },
+    {
+      "name": "Noah",
+      "gender": "boy",
+      "meaning": "rest, repose",
+      "origin": "Hebrew",
+      "popularity_rank": 2
+    },
+    { "name": "Olivia", "gender": "girl", "origin": "Latin, via Oliver", "popularity_rank": 1 },
+    {
+      "name": "Emma",
+      "gender": "girl",
+      "meaning": "whole, universal",
+      "origin": "Germanic",
+      "popularity_rank": 2
+    },
+    { "name": "Kai", "gender": "boy", "popularity_rank": 93 },
+    {
+      "name": "Jose",
+      "gender": "boy",
+      "meaning": "God will add",
+      "origin": "Hebrew, via Joseph",
+      "popularity_rank": 96
+    },
+    {
+      "name": "Sofia",
+      "gender": "girl",
+      "meaning": "wisdom",
+      "origin": "Greek",
+      "popularity_rank": 15
+    }
+  ]
+}

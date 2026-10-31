@@ -6,3 +6,6 @@ package-lock.json
 
 # drizzle-kit machine-generated migration metadata
 apps/api/drizzle/meta/
+
+# generated data-platform artifacts
+data/merge-report.json
