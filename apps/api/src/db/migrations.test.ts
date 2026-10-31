@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it } from 'vitest';
-import { closeDatabase, openDatabase } from './client.js';
+import { closeDatabase, openDatabase, type Db } from './client.js';
 import { migrateDatabase, migrationsFolder } from './migrate.js';
 import { createTestDb, type TestDb } from './testing.js';
 
@@ -11,6 +11,10 @@ afterEach(() => {
 
 const TABLES = ['datasets', 'members', 'name_entries', 'names', 'rooms', 'swipes'];
 
+function rows(db: Db, sql: string): Array<Record<string, unknown>> {
+  return db.$client.prepare(sql).all() as Array<Record<string, unknown>>;
+}
+
 describe('drizzle-kit migrations', () => {
   it('migrations folder ships with the package', () => {
     expect(migrationsFolder).toMatch(/apps\/api\/drizzle$/);
@@ -19,10 +23,11 @@ describe('drizzle-kit migrations', () => {
   it('applies cleanly to a fresh SQLite file', () => {
     test = createTestDb(); // opens a brand-new file and applies all migrations
 
-    const tables = test.db.$client
-      .prepare("select name from sqlite_master where type = 'table' and name not like 'sqlite_%'")
-      .all()
-      .map((r) => r.name)
+    const tables = rows(
+      test.db,
+      "select name from sqlite_master where type = 'table' and name not like 'sqlite_%'",
+    )
+      .map((r) => r.name as string)
       .filter((name) => !name.startsWith('__drizzle'))
       .sort();
 
@@ -42,21 +47,18 @@ describe('drizzle-kit migrations', () => {
           "insert into datasets (key, name, description, sort_order) values ('only-a', 'A', 'x', 1)",
         )
         .run();
-      const keysIn = (db: typeof a) =>
-        db.db.$client
-          .prepare('select key from datasets')
-          .all()
-          .map((r) => r.key);
-      expect(keysIn(a)).toEqual(['only-a']);
-      expect(keysIn(b)).toEqual([]);
+      const keysIn = (db: Db) => rows(db, 'select key from datasets').map((r) => r.key as string);
+      expect(keysIn(a.db)).toEqual(['only-a']);
+      expect(keysIn(b.db)).toEqual([]);
     } finally {
       b.cleanup();
     }
   });
 
   it('re-running migrateDatabase on an up-to-date database is a no-op', () => {
-    test = createTestDb();
-    expect(() => migrateDatabase(test.db)).not.toThrow();
+    const fresh = createTestDb();
+    test = fresh;
+    expect(() => migrateDatabase(fresh.db)).not.toThrow();
   });
 
   it('openDatabase enforces foreign keys (cascade prerequisite)', () => {
@@ -68,22 +70,21 @@ describe('drizzle-kit migrations', () => {
     }
   });
 
-  it('name_entries DDL carries the unique pair, both checks and cascading FKs', () => {
+  it('name_entries DDL carries both checks and cascading FKs', () => {
     test = createTestDb();
-    const sql = test.db.$client
-      .prepare("select sql from sqlite_master where type = 'table' and name = 'name_entries'")
-      .get() as { sql: string };
+    const ddl = rows(
+      test.db,
+      "select sql from sqlite_master where type = 'table' and name = 'name_entries'",
+    )[0]!.sql as string;
 
-    expect(sql.sql).toContain("CHECK(\"name_entries\".\"gender\" in ('boy', 'girl', 'neutral'))");
-    expect(sql.sql).toContain("\"tier\" in ('popular', 'uncommon', 'rare', 'unranked')");
-    expect(sql.sql).toContain('ON DELETE cascade');
+    expect(ddl).toContain("CHECK(\"name_entries\".\"gender\" in ('boy', 'girl', 'neutral'))");
+    expect(ddl).toContain("\"tier\" in ('popular', 'uncommon', 'rare', 'unranked')");
+    expect(ddl).toContain('ON DELETE cascade');
 
-    const indexes = test.db.$client
-      .prepare(
-        "select name, sql from sqlite_master where type = 'index' and tbl_name = 'name_entries'",
-      )
-      .all()
-      .map((r) => (r as { name: string }).name);
+    const indexes = rows(
+      test.db,
+      "select name from sqlite_master where type = 'index' and tbl_name = 'name_entries'",
+    ).map((r) => r.name as string);
     expect(indexes).toContain('name_entries_name_id_dataset_id_unique');
   });
 });
