@@ -21,3 +21,7 @@ Thumbs.db
 # Tooling caches
 .vite/
 .eslintcache
+
+# Local agent/orchestrator state (not part of the product)
+ORCHESTRATOR_STATE.md
+plans/
