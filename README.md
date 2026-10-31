@@ -4,16 +4,71 @@ A Tinder-style baby-name swiping app for couples: both partners swipe on baby
 names separately, and when you both swipe right it's a match. Fun,
 non-commercial, mobile-first web app.
 
-> Status: repository bootstrap. The monorepo scaffold (npm workpaces,
-> `apps/web` + `apps/api`, tooling) lands via the first pull requests — see
-> "Branch & PR conventions" below once documented.
+## Quick start
 
-## Repository layout (target)
+Requires Node.js >= 20.19 (LTS 22+ recommended).
+
+```sh
+npm install
+npm run dev
+```
+
+- Web app: http://localhost:5173
+- API: http://localhost:4000 — the Vite dev server proxies `/api/*` to it, so
+  the app only ever talks to same-origin `/api/...` URLs.
+
+## Scripts (repository root)
+
+| Script              | What it runs                                                                  |
+| ------------------- | ----------------------------------------------------------------------------- |
+| `npm run dev`       | Both workspaces concurrently (`concurrently`): api on `:4000`, web on `:5173` |
+| `npm run build`     | Production builds of both workspaces                                          |
+| `npm run typecheck` | `tsc --noEmit` in both workspaces                                             |
+| `npm run lint`      | ESLint (flat config) + Prettier check across the repo                         |
+| `npm run format`    | Prettier write across the repo                                                |
+| `npm test`          | `vitest run` in both workspaces                                               |
+| `npm run verify`    | typecheck + lint + test — the single CI-equivalent command                    |
+
+## Architecture
+
+npm-workspaces monorepo:
 
 ```
 .
 ├── apps
-│   ├── web   # Vite + React + TypeScript (strict) + Tailwind — the swiping UI
-│   └── api   # Express + TypeScript (strict) — JSON API
-└── package.json  # npm workspaces root
+│   ├── web                      # Vite + React + TypeScript (strict) + Tailwind CSS
+│   │   ├── index.html
+│   │   ├── vite.config.ts       # dev proxy: /api -> http://localhost:4000; vitest (jsdom)
+│   │   └── src                  # App placeholder + React Testing Library suite
+│   └── api                      # Express + TypeScript (strict)
+│       ├── src/app.ts           # app factory + GET /api/ping stub ({ pong: true })
+│       ├── src/server.ts        # listen on PORT env (default 4000)
+│       └── src/app.test.ts      # supertest suite
+├── .github/pull_request_template.md
+├── eslint.config.js             # ESLint flat config (repo-wide)
+├── .prettierrc.json / .prettierignore
+└── package.json                 # workspaces root — shared scripts above
 ```
+
+- `apps/web` proxies `/api` to the api dev server (see `apps/web/vite.config.ts`).
+- `apps/api` reads `PORT` from the environment and defaults to `4000`.
+- Planned next (not in this scaffold): framer-motion swipe gestures,
+  zod-validated routes, Drizzle ORM + better-sqlite3 (PostgreSQL-portable)
+  persistence. No business logic or DB yet, by design.
+
+## Testing
+
+Vitest everywhere: the web workspace uses React Testing Library with jsdom;
+the api workspace uses supertest. Run `npm test`, or `npm run verify` for the
+full gate (typecheck + lint + test) that every PR must pass.
+
+## Branch & PR conventions
+
+- `main` is the integration branch: never commit directly to it. All work
+  happens on short-lived feature branches (`feat/*`, `fix/*`, `chore/*`).
+- Open a pull request against `main`. The PR template checklist (acceptance
+  criteria met, tests added, test evidence pasted, no direct-to-main commits)
+  must be complete before review.
+- The reviewer/orchestrator reviews and merges; `npm run verify` must be green
+  and its evidence pasted into the PR.
+- Keep PRs small and short-lived.
