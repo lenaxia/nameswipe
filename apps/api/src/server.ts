@@ -1,9 +1,7 @@
-import { createApp } from './app.js';
+import { buildApp } from './app.js';
 
 const port = Number(process.env.PORT ?? 4000);
 
-const app = createApp();
-
-app.listen(port, () => {
+buildApp().listen(port, () => {
   console.log(`NameSwipe API listening on http://localhost:${port}`);
 });
