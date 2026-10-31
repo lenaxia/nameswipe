@@ -22,6 +22,9 @@ Thumbs.db
 .vite/
 .eslintcache
 
+# Local SQLite databases (dev runtime; migrations live in apps/api/drizzle)
+apps/api/*.db
+
 # Local agent/orchestrator state (not part of the product)
 ORCHESTRATOR_STATE.md
 plans/
