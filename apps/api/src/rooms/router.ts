@@ -11,15 +11,18 @@ import { CODE_LENGTH, CODE_PATTERN, MAX_CODE_ATTEMPTS, generateRoomCode } from '
 import { roomConfigSchema, type RoomConfig } from './config.js';
 import { buildMemberDeck } from './deck.js';
 import { MAX_MEMBERS, joinBodySchema } from './members.js';
+import { deleteSwipe, recordSwipe, swipeBodySchema, type SwipeBody } from './swipes.js';
 
 /**
  * Rooms API.
  *
- * POST /api/rooms             create a room from a config, mint a unique pairing code
- * GET  /api/rooms/:code       fetch a room with its member count and config
- * POST /api/rooms/:code/join  join as a member (max 2 per room)
- * GET  /api/rooms/:code/members  list members ordered by joinedAt
- * GET  /api/rooms/:code/members/:memberId/deck  the member's filtered, deterministically ordered deck
+ * POST /api/rooms/:code             create a room from a config, mint a unique pairing code
+ * GET  /api/rooms/:code             fetch a room with its member count and config
+ * POST /api/rooms/:code/join        join as a member (max 2 per room)
+ * GET  /api/rooms/:code/members     list members ordered by joinedAt
+ * GET  /api/rooms/:code/members/:memberId/deck        the member's filtered, deterministically ordered deck
+ * POST /api/rooms/:code/members/:memberId/swipes      record a like/nope; 201 {match} (derived)
+ * DELETE /api/rooms/:code/members/:memberId/swipes/:nameId   undo a swipe; matches un-derive
  */
 
 export interface RoomDto {
@@ -122,6 +125,13 @@ const memberDeckParamsSchema = codeParamsSchema.extend({
   memberId: z.string().min(1, 'memberId must not be empty'),
 });
 
+const memberSwipeParamsSchema = memberDeckParamsSchema.extend({
+  nameId: z.coerce
+    .number()
+    .int('nameId must be an integer')
+    .positive('nameId must be a positive integer'),
+});
+
 function countMembers(db: Db, roomId: number): number {
   const row = db
     .select({ n: sql<number>`count(*)` })
@@ -137,6 +147,28 @@ function findRoomOrThrow(db: Db, code: string): schema.Room {
     throw new ApiError(404, 'room_not_found', `No room with code '${code}'`);
   }
   return room;
+}
+
+/**
+ * memberId is the member's token handle (see toMemberDto). A token that
+ * resolves to no member of THIS room — unknown, or belonging to another
+ * room — is the same 404.
+ */
+function findMemberOrThrow(
+  db: Db,
+  room: schema.Room,
+  code: string,
+  memberId: string,
+): schema.Member {
+  const member = db
+    .select()
+    .from(schema.members)
+    .where(and(eq(schema.members.roomId, room.id), eq(schema.members.token, memberId)))
+    .get();
+  if (!member) {
+    throw new ApiError(404, 'member_not_found', `No member '${memberId}' in room '${code}'`);
+  }
+  return member;
 }
 
 export function createRoomsRouter(db: Db, options: RoomsRouterOptions = {}): Router {
@@ -198,18 +230,37 @@ export function createRoomsRouter(db: Db, options: RoomsRouterOptions = {}): Rou
     (req, res) => {
       const { code, memberId } = req.params as unknown as { code: string; memberId: string };
       const room = findRoomOrThrow(db, code);
-      // memberId is the member's token handle (see toMemberDto). A token that
-      // resolves to no member of THIS room — unknown, or belonging to another
-      // room — is the same 404.
-      const member = db
-        .select()
-        .from(schema.members)
-        .where(and(eq(schema.members.roomId, room.id), eq(schema.members.token, memberId)))
-        .get();
-      if (!member) {
-        throw new ApiError(404, 'member_not_found', `No member '${memberId}' in room '${code}'`);
-      }
+      const member = findMemberOrThrow(db, room, code, memberId);
       res.json(buildMemberDeck(db, room, member));
+    },
+  );
+
+  router.post(
+    '/api/rooms/:code/members/:memberId/swipes',
+    validate({ params: memberDeckParamsSchema }),
+    validate({ body: swipeBodySchema }, { status: 422 }),
+    (req, res) => {
+      const { code, memberId } = req.params as unknown as { code: string; memberId: string };
+      const room = findRoomOrThrow(db, code);
+      const member = findMemberOrThrow(db, room, code, memberId);
+      const body = req.body as SwipeBody;
+      res.status(201).json(recordSwipe(db, room, member, body));
+    },
+  );
+
+  router.delete(
+    '/api/rooms/:code/members/:memberId/swipes/:nameId',
+    validate({ params: memberSwipeParamsSchema }),
+    (req, res) => {
+      const { code, memberId, nameId } = req.params as unknown as {
+        code: string;
+        memberId: string;
+        nameId: number;
+      };
+      const room = findRoomOrThrow(db, code);
+      const member = findMemberOrThrow(db, room, code, memberId);
+      deleteSwipe(db, member, nameId);
+      res.status(204).send();
     },
   );
 
