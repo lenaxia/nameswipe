@@ -8,7 +8,19 @@ interface ValidationSchemas {
   body?: z.ZodType;
 }
 
-export function validate(schemas: ValidationSchemas): RequestHandler {
+interface ValidationOptions {
+  /**
+   * HTTP status used for schema failures (default 400). Routes with a
+   * semantic body contract (e.g. 422 for room config) can raise it.
+   */
+  status?: number;
+}
+
+export function validate(
+  schemas: ValidationSchemas,
+  options: ValidationOptions = {},
+): RequestHandler {
+  const status = options.status ?? 400;
   return (req, _res, next) => {
     for (const target of ['params', 'query', 'body'] as const) {
       const schema = schemas[target];
@@ -21,7 +33,7 @@ export function validate(schemas: ValidationSchemas): RequestHandler {
           path: issue.path.map(String).join('.'),
           message: issue.message,
         }));
-        next(new ApiError(400, 'validation_error', `Invalid request ${target}`, details));
+        next(new ApiError(status, 'validation_error', `Invalid request ${target}`, details));
         return;
       }
       if (target === 'body') {
