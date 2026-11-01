@@ -4,6 +4,10 @@ coverage
 package-lock.json
 *.log
 
+# local agent/tool state and dev SQLite files (gitignored, not repo content)
+.local/
+apps/api/*.db
+
 # drizzle-kit machine-generated migration metadata
 apps/api/drizzle/meta/
 
