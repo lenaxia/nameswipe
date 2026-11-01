@@ -1,1 +1,181 @@
 @import 'tailwindcss';
+
+/*
+ * NameSwipe design tokens — single source of truth.
+ *
+ * Rules of engagement:
+ *  - Components reference these tokens through the Tailwind utilities the
+ *    `@theme` block generates (bg-brand-500, p-lg, rounded-xl, shadow-md…).
+ *  - Raw color literals live ONLY in this file. No hex/rgb/arbitrary values
+ *    anywhere under src/components or src/pages (enforced by a test:
+ *    src/components/ui/__tests__/tokens.test.ts).
+ *  - Light mode first; palette is warm + friendly (cream surfaces, coral
+ *    brand, amber accent). Dark palette can later override the same names.
+ */
+@theme {
+  /* ── Typography ─────────────────────────────────────────────── */
+  --font-sans:
+    ui-rounded, 'SF Pro Rounded', 'Segoe UI Variable Display', system-ui, -apple-system, 'Segoe UI',
+    sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1.125rem;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.25rem;
+  --text-base: 1rem;
+  --text-base--line-height: 1.5rem;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 1.75rem;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: 1.875rem;
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: 2rem;
+  --text-3xl: 1.875rem;
+  --text-3xl--line-height: 2.375rem;
+  --text-4xl: 2.25rem;
+  --text-4xl--line-height: 2.75rem;
+
+  /* ── Spacing (semantic steps on the 4px base) ───────────────── */
+  --spacing-xs: 0.25rem; /*  4px */
+  --spacing-sm: 0.5rem; /*  8px */
+  --spacing-md: 0.75rem; /* 12px */
+  --spacing-lg: 1rem; /* 16px */
+  --spacing-xl: 1.5rem; /* 24px */
+  --spacing-2xl: 2rem; /* 32px */
+  --spacing-3xl: 3rem; /* 48px */
+
+  /* control + icon metrics (shared by Button/IconButton/Spinner) */
+  --spacing-control-sm: 2.25rem; /* 36px */
+  --spacing-control-md: 2.75rem; /* 44px — comfortable thumb target */
+  --spacing-control-lg: 3.5rem; /* 56px */
+  --spacing-icon-sm: 1rem;
+  --spacing-icon-md: 1.25rem;
+  --spacing-icon-lg: 1.75rem;
+  --spacing-bubble: 4rem; /* EmptyState icon bubble */
+
+  /* ── Containers ─────────────────────────────────────────────── */
+  --container-modal: 28rem; /* BottomSheet modal max width */
+  --container-content: 42rem; /* readable content column */
+
+  /* ── Radius ─────────────────────────────────────────────────── */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+
+  /* ── Shadows (warm-tinted, never pure black) ────────────────── */
+  --shadow-xs: 0 1px 2px rgb(75 46 34 / 0.06);
+  --shadow-sm: 0 1px 2px rgb(75 46 34 / 0.08), 0 1px 3px rgb(75 46 34 / 0.08);
+  --shadow-md: 0 2px 4px rgb(75 46 34 / 0.08), 0 3px 8px rgb(75 46 34 / 0.08);
+  --shadow-lg: 0 4px 8px rgb(75 46 34 / 0.1), 0 8px 24px rgb(75 46 34 / 0.12);
+  --shadow-xl: 0 8px 16px rgb(75 46 34 / 0.12), 0 16px 40px rgb(75 46 34 / 0.16);
+
+  /* ── Brand: warm coral (primary actions) ────────────────────── */
+  --color-brand-50: #fef3ef;
+  --color-brand-100: #fde3da;
+  --color-brand-200: #fbc8b6;
+  --color-brand-300: #f8a48b;
+  --color-brand-400: #f37e5c;
+  --color-brand-500: #ea5e3a;
+  --color-brand-600: #d44c29;
+  --color-brand-700: #b23c21;
+  --color-brand-800: #91331f;
+  --color-brand-900: #772e1f;
+
+  /* ── Accent: soft amber (matches, highlights) ───────────────── */
+  --color-accent-50: #fffaeb;
+  --color-accent-100: #fdf0c8;
+  --color-accent-200: #fbe194;
+  --color-accent-300: #f6cb5d;
+  --color-accent-400: #efb131;
+  --color-accent-500: #e1971f;
+  --color-accent-600: #c07719;
+  --color-accent-700: #995d17;
+
+  /* ── Success: warm green (it's a match!) ────────────────────── */
+  --color-success-50: #f0faf2;
+  --color-success-100: #ddf2e2;
+  --color-success-200: #bbe5c9;
+  --color-success-300: #8fd2a6;
+  --color-success-400: #63ba82;
+  --color-success-500: #439e66;
+  --color-success-600: #337e51;
+  --color-success-700: #2b6442;
+
+  /* ── Danger ─────────────────────────────────────────────────── */
+  --color-danger-50: #fdf1f0;
+  --color-danger-100: #fadfdc;
+  --color-danger-200: #f5c0bb;
+  --color-danger-300: #ee9b93;
+  --color-danger-400: #e47166;
+  --color-danger-500: #d5333c;
+  --color-danger-600: #be2532;
+  --color-danger-700: #9e2130;
+
+  /* ── Semantic surfaces & ink (light mode) ───────────────────── */
+  --color-surface: #fff9f5; /* page background — warm cream */
+  --color-surface-raised: #ffffff; /* cards, sheets, modals */
+  --color-surface-sunken: #f9efe7; /* wells, idle chips, skeletons */
+  --color-ink: #3d2a26; /* primary text — espresso */
+  --color-ink-secondary: #755c55;
+  --color-ink-muted: #9c8279;
+  --color-ink-inverse: #ffffff; /* text on brand/danger fills */
+  --color-line: #eddfd3; /* hairline borders */
+  --color-line-strong: #dcc4b3; /* control borders */
+  --color-scrim: rgb(61 42 38 / 0.5); /* modal overlay */
+  --color-focus: #f37e5c; /* focus ring — brand-400 */
+
+  /* ── Motion ─────────────────────────────────────────────────── */
+  --animate-sheet-in: sheet-in 250ms cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  --animate-modal-in: modal-in 200ms cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  --animate-fade-in: fade-in 200ms ease-out both;
+
+  @keyframes sheet-in {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  @keyframes modal-in {
+    from {
+      opacity: 0;
+      transform: scale(0.96);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
