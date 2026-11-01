@@ -1,0 +1,7318 @@
+{
+  "key": "indian",
+  "name": "Indian (Sanskrit + modern)",
+  "description": "Pan-Indian given names across major traditions (Sanskrit/Hindi, Tamil, Telugu, Kannada, Malayalam, Bengali, Marathi, Gujarati, Punjabi/Sikh, Urdu/Arabic/Persian), with verifiable meanings and curator-assigned tiers.",
+  "sort_order": 60,
+  "entries": [
+    {
+      "name": "Aadi",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "beginning, first",
+      "tier": "popular"
+    },
+    {
+      "name": "Aakash",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "sky, ether",
+      "tier": "popular"
+    },
+    {
+      "name": "Aarav",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "peaceful, calm; deep sound",
+      "tier": "popular"
+    },
+    {
+      "name": "Aarush",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "first ray of the sun",
+      "tier": "popular"
+    },
+    {
+      "name": "Abhay",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "fearless",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Abhinav",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "new, novel, innovative",
+      "tier": "popular"
+    },
+    {
+      "name": "Abhishek",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "consecration, ritual anointing",
+      "tier": "popular"
+    },
+    {
+      "name": "Aditya",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sun; son of Aditi",
+      "tier": "popular"
+    },
+    {
+      "name": "Agastya",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "name of a revered Vedic sage",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ajay",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "unconquered, invincible",
+      "tier": "popular"
+    },
+    {
+      "name": "Amar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "immortal, undying",
+      "tier": "popular"
+    },
+    {
+      "name": "Ambar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "sky, garment of the heavens",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Amit",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "boundless, immeasurable",
+      "tier": "popular"
+    },
+    {
+      "name": "Amogh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "unerring, ever fruitful",
+      "tier": "rare"
+    },
+    {
+      "name": "Anand",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "bliss, joy",
+      "tier": "popular"
+    },
+    {
+      "name": "Anant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "infinite, endless",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Angad",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a heroic prince in the Ramayana; from 'anga' (limb)",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anil",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "wind, air",
+      "tier": "popular"
+    },
+    {
+      "name": "Animesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "unblinking, alert; one whose eyes do not close",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anirudh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "unrestrained, unstoppable; Krishna's grandson",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anish",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "supreme, without a master",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ankur",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "sprout, seedling",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anup",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "incomparable, unequalled",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anurag",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "attachment, devotion, love",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Arjun",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "bright, shining, silver; the Pandava hero",
+      "tier": "popular"
+    },
+    {
+      "name": "Arun",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the glow of dawn; the sun's charioteer",
+      "tier": "popular"
+    },
+    {
+      "name": "Ashish",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "blessing",
+      "tier": "popular"
+    },
+    {
+      "name": "Ashok",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "without sorrow",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ashwin",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the twin horsemen of dawn; a month of autumn",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Atul",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "matchless, incomparable",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Aurbindo",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a lotus-seated sage; name of the modern rishi",
+      "tier": "rare"
+    },
+    {
+      "name": "Ayush",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "long life, span of life",
+      "tier": "popular"
+    },
+    {
+      "name": "Bhargav",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a name of Shiva; descendant of Bhrigu",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bhaskar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sun, maker of light",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bhavesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the world; a name of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bhim",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "mighty, formidable; the second Pandava",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bodhraj",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "king of enlightenment",
+      "tier": "rare"
+    },
+    {
+      "name": "Brihaspati",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the guru of the gods, lord of prayer",
+      "tier": "rare"
+    },
+    {
+      "name": "Chaitanya",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "consciousness, spirit; a medieval saint",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chakor",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a partridge fabled to drink moonbeams",
+      "tier": "rare"
+    },
+    {
+      "name": "Chandra",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the moon",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chandan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "sandalwood",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chandrashekhar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "moon-crested; a name of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chetan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "consciousness, spirit, awake",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chirag",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "lamp",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chirantan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "immortal, of endless life",
+      "tier": "rare"
+    },
+    {
+      "name": "Damodar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "tied at the belly; a name of the child Krishna",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Darshan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "vision, auspicious sight of a deity",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Deepak",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lamp, little light",
+      "tier": "popular"
+    },
+    {
+      "name": "Dev",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "god, deity",
+      "tier": "popular"
+    },
+    {
+      "name": "Devansh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "part of the divine",
+      "tier": "popular"
+    },
+    {
+      "name": "Devdutt",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "given by the gods",
+      "tier": "rare"
+    },
+    {
+      "name": "Devraj",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "king of the gods; Indra",
+      "tier": "rare"
+    },
+    {
+      "name": "Dhananjay",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "conqueror of wealth; a title of Arjuna",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Dhanesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of wealth",
+      "tier": "rare"
+    },
+    {
+      "name": "Dhiraj",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "patience, steadfast courage",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Dhruv",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the pole star; immovable, constant",
+      "tier": "popular"
+    },
+    {
+      "name": "Digvijay",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "conqueror of the four directions",
+      "tier": "rare"
+    },
+    {
+      "name": "Dilip",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a king of the Solar dynasty, ancestor of Rama",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Divakar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "maker of day, the sun",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Dinesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the day, the sun",
+      "tier": "popular"
+    },
+    {
+      "name": "Dinanath",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "protector of the poor and oppressed",
+      "tier": "rare"
+    },
+    {
+      "name": "Dwaipayan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "island-born; an epithet of the sage Vyasa",
+      "tier": "rare"
+    },
+    {
+      "name": "Gagan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "sky, the heavens",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ganesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the ganas; the elephant-headed god",
+      "tier": "popular"
+    },
+    {
+      "name": "Garud",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the divine eagle, mount of Vishnu",
+      "tier": "rare"
+    },
+    {
+      "name": "Gaurang",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "golden-hued; a name of Chaitanya Mahaprabhu",
+      "tier": "rare"
+    },
+    {
+      "name": "Gopal",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "protector of cows; a name of Krishna",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Girish",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the mountains; Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Giridhar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "hill-holder; a name of Krishna",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Gyan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "knowledge, wisdom",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hari",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "yellow, fawn; a name of Vishnu, the remover",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Harish",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the heart; a name of Vishnu",
+      "tier": "popular"
+    },
+    {
+      "name": "Harsh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "joy, delight",
+      "tier": "popular"
+    },
+    {
+      "name": "Harshad",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "giver of joy",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hemanth",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "early winter, the cold season",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hitesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of benevolence, well-wisher",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ilesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the earth",
+      "tier": "rare"
+    },
+    {
+      "name": "Indra",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "chief of the gods; possessor of drops (of rain)",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Indrajit",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "conqueror of Indra; Ravana's son",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Inder",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a god; short form of Indra",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ishaan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sun; northeast direction; a name of Shiva",
+      "tier": "popular"
+    },
+    {
+      "name": "Ishwar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "God, the lord",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jal",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "water",
+      "tier": "rare"
+    },
+    {
+      "name": "Jatin",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "one with matted hair; a name of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jay",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "victory",
+      "tier": "popular"
+    },
+    {
+      "name": "Jayant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "victorious; a name of Shiva and of a deity of the soma",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jitendra",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "conqueror of the senses; a name of Indra",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jyotiraditya",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lamp of the sun, resplendent light",
+      "tier": "rare"
+    },
+    {
+      "name": "Kabir",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "the great, exalted; name of the mystic poet",
+      "tier": "popular"
+    },
+    {
+      "name": "Kailash",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a name of Shiva's Himalayan abode",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kalpit",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "imagined, conceived; creative",
+      "tier": "rare"
+    },
+    {
+      "name": "Kalyan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "auspicious, fortunate, welfare",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kamalesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lotus-holder; a name of Vishnu",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kanan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "forest, grove",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Karan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a hero of the Mahabharata famed for generosity",
+      "tier": "popular"
+    },
+    {
+      "name": "Kartik",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a month of autumn; a name of the war god Skanda",
+      "tier": "popular"
+    },
+    {
+      "name": "Kaustubh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a celestial jewel worn by Vishnu",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kavya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "poetry, a poem",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Keshav",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "one with beautiful hair; a name of Krishna",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ketan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "banner, flag; mark",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kiran",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "ray of light",
+      "tier": "popular"
+    },
+    {
+      "name": "Kripa",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "grace, blessing",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Krishna",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "dark, dark-blue; the divine cowherd of the Bhagavad Gita",
+      "tier": "popular"
+    },
+    {
+      "name": "Kundan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "pure gold; refined metal",
+      "tier": "rare"
+    },
+    {
+      "name": "Kurm",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "tortoise; Vishnu's second avatar",
+      "tier": "rare"
+    },
+    {
+      "name": "Kushal",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "skilful, clever, happy",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kushagra",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "sharp, keen; supremely skilful",
+      "tier": "rare"
+    },
+    {
+      "name": "Lalit",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "charming, graceful, beautiful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Lokesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the world",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Loknath",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the world, refuge of the people",
+      "tier": "rare"
+    },
+    {
+      "name": "Madan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the god of love, Kama",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Madhukar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "bee; honey-maker, the moon",
+      "tier": "rare"
+    },
+    {
+      "name": "Madhup",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "bee, honey-drinker",
+      "tier": "rare"
+    },
+    {
+      "name": "Madhur",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "sweet, melodious",
+      "tier": "rare"
+    },
+    {
+      "name": "Mahadev",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "great god; a name of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mahesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "great lord; a name of Shiva",
+      "tier": "popular"
+    },
+    {
+      "name": "Manas",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "mind, intellect",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Manav",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "man, human being",
+      "tier": "popular"
+    },
+    {
+      "name": "Mangesh",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "a name of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Manish",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the mind, wise",
+      "tier": "popular"
+    },
+    {
+      "name": "Manohar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "heart-stealing, captivating",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Manthan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "churning, deep reflection",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Martand",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sun, dead-yet-living one",
+      "tier": "rare"
+    },
+    {
+      "name": "Mayank",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the moon",
+      "tier": "popular"
+    },
+    {
+      "name": "Meet",
+      "gender": "boy",
+      "origin": "Gujarati",
+      "meaning": "friend",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Megh",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "cloud, rain-cloud",
+      "tier": "rare"
+    },
+    {
+      "name": "Mihir",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sun",
+      "tier": "popular"
+    },
+    {
+      "name": "Mithun",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "Gemini; a pair, coupled",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mohan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "enchanting; a name of Krishna",
+      "tier": "popular"
+    },
+    {
+      "name": "Mohanlal",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "beloved of Mohan (Krishna)",
+      "tier": "rare"
+    },
+    {
+      "name": "Mohit",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "attracted, infatuated, charmed",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mridul",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "soft, gentle, tender",
+      "tier": "rare"
+    },
+    {
+      "name": "Mukesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "ruler of the liberated; a name of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mukul",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "bud, blossom",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nagendra",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of serpents; Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nakul",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a twin Pandava; a mungoose, most handsome",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Narayan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "refuge of men; a name of Vishnu",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Narendra",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of men, king",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Naveen",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "new, fresh",
+      "tier": "popular"
+    },
+    {
+      "name": "Navin",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "new, fresh",
+      "tier": "rare"
+    },
+    {
+      "name": "Nawal",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "new, novel",
+      "tier": "rare"
+    },
+    {
+      "name": "Nikhil",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "whole, complete, all",
+      "tier": "popular"
+    },
+    {
+      "name": "Nilesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the blue; a name of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nirmay",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "pure, spotless",
+      "tier": "rare"
+    },
+    {
+      "name": "Nirmal",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "pure, clean, clear",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nirvaan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "liberation, final bliss",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nishant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "dawn's end, early morning; horizon",
+      "tier": "popular"
+    },
+    {
+      "name": "Nitya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "eternal, constant",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nityanand",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "eternal joy",
+      "tier": "rare"
+    },
+    {
+      "name": "Nripen",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "king of men",
+      "tier": "rare"
+    },
+    {
+      "name": "Om",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the primordial sacred syllable",
+      "tier": "popular"
+    },
+    {
+      "name": "Omkar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sacred Om; a name of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Padmanabh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lotus-navelled; a name of Vishnu",
+      "tier": "rare"
+    },
+    {
+      "name": "Palash",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a flowering tree with flame-red blossoms",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Parag",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "pollen of flowers",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Param",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "supreme, ultimate",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Parth",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a name of Arjuna",
+      "tier": "popular"
+    },
+    {
+      "name": "Parthiv",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "son of the earth; earthly",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Parvez",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "victorious, fortunate",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Piyush",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "nectar, milk, elixir",
+      "tier": "popular"
+    },
+    {
+      "name": "Prabal",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "strong, mighty; coral",
+      "tier": "rare"
+    },
+    {
+      "name": "Pradyumna",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "mighty one; Krishna's son",
+      "tier": "rare"
+    },
+    {
+      "name": "Prajapati",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of creatures, creator",
+      "tier": "rare"
+    },
+    {
+      "name": "Prakash",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "light, lustre",
+      "tier": "popular"
+    },
+    {
+      "name": "Pramod",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "joy, delight",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Pran",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "breath, life-force",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Pranab",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sacred Om; life-giving",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Pranav",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sacred syllable Om",
+      "tier": "popular"
+    },
+    {
+      "name": "Prasanna",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "calm, serene, pleased",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Prashant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "calm, peaceful, tranquil",
+      "tier": "popular"
+    },
+    {
+      "name": "Pratap",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "valour, majesty, glory",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Prateek",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "symbol, reflection, first image",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Prathamesh",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "first among leaders; a name of Ganesha",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Pratik",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "image, symbol, representative",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Praveen",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "skilled, expert, proficient",
+      "tier": "popular"
+    },
+    {
+      "name": "Prem",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "love, affection",
+      "tier": "popular"
+    },
+    {
+      "name": "Priyansh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "beloved part, dear one",
+      "tier": "popular"
+    },
+    {
+      "name": "Priyank",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a mark of love, beloved",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Pulkit",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "thrilled, overjoyed",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Purushottam",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "supreme among men; a title of Rama and Krishna",
+      "tier": "rare"
+    },
+    {
+      "name": "Raghav",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "descendant of Raghu; a name of Rama",
+      "tier": "popular"
+    },
+    {
+      "name": "Rahul",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "able, efficient; the Buddha's son",
+      "tier": "popular"
+    },
+    {
+      "name": "Raj",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "king, ruler",
+      "tier": "popular"
+    },
+    {
+      "name": "Rajat",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "silver, brilliant white",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rajendra",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of kings, emperor",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rajesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of kings",
+      "tier": "popular"
+    },
+    {
+      "name": "Rakesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the full-moon night",
+      "tier": "popular"
+    },
+    {
+      "name": "Raman",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "delighting, charming",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ramesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of Lakshmi; a name of Vishnu",
+      "tier": "popular"
+    },
+    {
+      "name": "Ranbir",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "victorious in battle, brave king",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Randeep",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "lamp of the battle, warrior's light",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ranganath",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the stage; Vishnu at Srirangam",
+      "tier": "rare"
+    },
+    {
+      "name": "Ratnesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of jewels",
+      "tier": "rare"
+    },
+    {
+      "name": "Rishab",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a musical note; excellent, a bull",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rishabh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a musical note; excellent, a bull",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rishi",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "seer, sage",
+      "tier": "popular"
+    },
+    {
+      "name": "Rohan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "ascending, growing; a tree",
+      "tier": "popular"
+    },
+    {
+      "name": "Rohit",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "red, ruddy; a name of the sun",
+      "tier": "popular"
+    },
+    {
+      "name": "Romil",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "soft, charming",
+      "tier": "rare"
+    },
+    {
+      "name": "Ronit",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "charm, grace",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Roshan",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "bright, luminous",
+      "tier": "popular"
+    },
+    {
+      "name": "Rudra",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "howler; a fierce form of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rushil",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "graceful, saintly",
+      "tier": "rare"
+    },
+    {
+      "name": "Saatvik",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "pure, virtuous, sattvic",
+      "tier": "popular"
+    },
+    {
+      "name": "Sachin",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a name of Shiva; true existence",
+      "tier": "popular"
+    },
+    {
+      "name": "Sagar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "ocean, sea",
+      "tier": "popular"
+    },
+    {
+      "name": "Sahil",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "shore, guide",
+      "tier": "popular"
+    },
+    {
+      "name": "Sajal",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "moist, fresh, graceful",
+      "tier": "rare"
+    },
+    {
+      "name": "Salil",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "water, the sea",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sameer",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "breeze, wind",
+      "tier": "popular"
+    },
+    {
+      "name": "Sammohan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "enchanting, fascinating",
+      "tier": "rare"
+    },
+    {
+      "name": "Samrat",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "emperor, universal ruler",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sandeep",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a blazing lamp, kindling light",
+      "tier": "popular"
+    },
+    {
+      "name": "Sanjay",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "triumphant; the charioteer who narrates the Gita",
+      "tier": "popular"
+    },
+    {
+      "name": "Sanket",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "signal, symbol, sign",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sankalp",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "resolve, determination, vow",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Santosh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "contentment, satisfaction",
+      "tier": "popular"
+    },
+    {
+      "name": "Sarang",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the spotted deer; a musical mode; the sun",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sarthak",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "meaningful, purposeful, capable",
+      "tier": "popular"
+    },
+    {
+      "name": "Sashank",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "hare-emblazoned; the moon",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shakti",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "power, energy; the divine feminine force",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shaligram",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a sacred fossil stone sacred to Vishnu",
+      "tier": "rare"
+    },
+    {
+      "name": "Shankar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "beneficent; a name of Shiva",
+      "tier": "popular"
+    },
+    {
+      "name": "Shantanu",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "wholesome, beneficial; Bhishma's father",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sharad",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "autumn",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shashank",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "hare-marked; the moon",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shashi",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "the moon, hare-emblazoned",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shatrughna",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "slayer of enemies; Rama's youngest brother",
+      "tier": "rare"
+    },
+    {
+      "name": "Shivam",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "auspicious; belonging to Shiva",
+      "tier": "popular"
+    },
+    {
+      "name": "Shrey",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "superior, auspicious",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shreyas",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "superior, excellent, auspicious",
+      "tier": "popular"
+    },
+    {
+      "name": "Shubham",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "auspicious, fortunate",
+      "tier": "popular"
+    },
+    {
+      "name": "Shubhankar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "auspicious, beneficent; a name of Ganesha",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shwetank",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "fair-marked, white-complexioned",
+      "tier": "rare"
+    },
+    {
+      "name": "Siddharth",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "one who has attained his goal; the Buddha",
+      "tier": "popular"
+    },
+    {
+      "name": "Sitakant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the moon beloved of Sita; Rama",
+      "tier": "rare"
+    },
+    {
+      "name": "Skanda",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the war god, commander of the divine armies",
+      "tier": "rare"
+    },
+    {
+      "name": "Somnath",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the moon; Shiva at Somnath",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sourav",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "fragrance",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sridhar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "wealth-bearing; a name of Vishnu",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Srinivas",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "abode of Lakshmi; a name of Venkateswara",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Subhash",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "of good speech, eloquent",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sudarshan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "beautiful to behold; Vishnu's discus",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sudhir",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "very wise, resolute",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sujay",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "victorious",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sukant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "beautiful, handsome, moon-faced",
+      "tier": "rare"
+    },
+    {
+      "name": "Suman",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "a good heart; flowers",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sumant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "wise, friendly; Dasharatha's minister",
+      "tier": "rare"
+    },
+    {
+      "name": "Sumedh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "wise, intelligent",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sumit",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "good friend, well-meaning",
+      "tier": "popular"
+    },
+    {
+      "name": "Suresh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the gods; Indra",
+      "tier": "popular"
+    },
+    {
+      "name": "Surya",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sun",
+      "tier": "popular"
+    },
+    {
+      "name": "Sushant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "calm, of tranquil mind",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Suvarn",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "gold, golden",
+      "tier": "rare"
+    },
+    {
+      "name": "Swapnil",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "dreamy, seen in a dream",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Swarnim",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "golden, shining",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Tapan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sun, warmer",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Tarak",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "star, saviour",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Tej",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "radiance, prowess, fire",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Tejas",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "sharpness, radiance, fire",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Tushar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "frost, snow, winter's first drop",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Uday",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "rising, sunrise",
+      "tier": "popular"
+    },
+    {
+      "name": "Udayan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "rising, ascending; an ancient king",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Uddhav",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a friend and devotee of Krishna",
+      "tier": "rare"
+    },
+    {
+      "name": "Ujjwal",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "bright, radiant",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Umesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the senses; a name of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Utpal",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "the blue lotus, water-lily",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Uttam",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "best, excellent, foremost",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vaijnath",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "lord of physicians; a name of Shiva",
+      "tier": "rare"
+    },
+    {
+      "name": "Vallabh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "beloved, dear; a name of Vishnu",
+      "tier": "rare"
+    },
+    {
+      "name": "Vanaraj",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "king of the forest",
+      "tier": "rare"
+    },
+    {
+      "name": "Varun",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the waters; the Vedic sea god",
+      "tier": "popular"
+    },
+    {
+      "name": "Vasanta",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "spring, the spring season",
+      "tier": "rare"
+    },
+    {
+      "name": "Vasanth",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "spring, the spring season",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vashishth",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "most excellent; a renowned Vedic sage",
+      "tier": "rare"
+    },
+    {
+      "name": "Ved",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "sacred knowledge; the Vedas",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vedang",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a limb of the Vedas, Vedic auxiliary",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vedant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the culmination of the Vedas, Vedanta",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Venudhar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "bearers of the flute; a name of Krishna",
+      "tier": "rare"
+    },
+    {
+      "name": "Vicky",
+      "gender": "boy",
+      "origin": "Hindi",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vidur",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "skilful, wise; the sage-statesman of the Mahabharata",
+      "tier": "rare"
+    },
+    {
+      "name": "Vikas",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "expansion, development, growth",
+      "tier": "popular"
+    },
+    {
+      "name": "Vikram",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "valiant, of far-striding gait",
+      "tier": "popular"
+    },
+    {
+      "name": "Vikrant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "powerful, mighty, courageous",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vinayak",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "a name of Ganesha, lord of the ganas",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vinod",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "joy, delight, amusement",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vipin",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "forest, grove",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vipul",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "abundant, plentiful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vir",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "brave, hero, warrior",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Viral",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "endless, precious",
+      "tier": "rare"
+    },
+    {
+      "name": "Viren",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "brave lord, chief of warriors",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Virinchi",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "a name of Brahma, the creator",
+      "tier": "rare"
+    },
+    {
+      "name": "Vishal",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "grand, spacious, immense",
+      "tier": "popular"
+    },
+    {
+      "name": "Vishnu",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "all-pervading; the preserver god",
+      "tier": "popular"
+    },
+    {
+      "name": "Vishwas",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "faith, trust, confidence",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vivek",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "discernment, wisdom, conscience",
+      "tier": "popular"
+    },
+    {
+      "name": "Vyom",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "sky, the heavens",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yadav",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "descendant of Yadu; Krishna's clan",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yash",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "glory, success, fame",
+      "tier": "popular"
+    },
+    {
+      "name": "Yashwant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "glorious, victorious, successful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yatn",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "effort, endeavour",
+      "tier": "rare"
+    },
+    {
+      "name": "Yatin",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "ascetic, disciplined one",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yogesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of yoga; a name of Shiva and Krishna",
+      "tier": "popular"
+    },
+    {
+      "name": "Yogeshwar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of yoga; Krishna in the Gita",
+      "tier": "rare"
+    },
+    {
+      "name": "Yuvan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "youthful, young",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yuvraj",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "prince, heir apparent",
+      "tier": "popular"
+    },
+    {
+      "name": "Aadhya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "first power; a name of the primeval goddess",
+      "tier": "popular"
+    },
+    {
+      "name": "Aaradhya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "one who is worshipped",
+      "tier": "popular"
+    },
+    {
+      "name": "Aarti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a ritual offering of light",
+      "tier": "popular"
+    },
+    {
+      "name": "Aditi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "boundless, free; mother of the gods",
+      "tier": "popular"
+    },
+    {
+      "name": "Ahana",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "dawn, first ray of light; inner radiance",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Aishwarya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "prosperity, wealth, glory",
+      "tier": "popular"
+    },
+    {
+      "name": "Akanksha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "desire, wish, aspiration",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Amrita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "nectar of immortality",
+      "tier": "popular"
+    },
+    {
+      "name": "Anamika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "nameless; the ring finger",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ananya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "without a second, unique",
+      "tier": "popular"
+    },
+    {
+      "name": "Anjali",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "an offering made with cupped hands",
+      "tier": "popular"
+    },
+    {
+      "name": "Anjana",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "kohl; mother of Hanuman",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Annapurna",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "goddess of food and nourishment",
+      "tier": "rare"
+    },
+    {
+      "name": "Anshula",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "radiant, sunbeam",
+      "tier": "rare"
+    },
+    {
+      "name": "Aparajita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "unconquered, invincible",
+      "tier": "rare"
+    },
+    {
+      "name": "Aparna",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "leafless; a name of Parvati in penance",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Arpita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "offered, dedicated",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Arya",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "noble, honourable",
+      "tier": "popular"
+    },
+    {
+      "name": "Aslesha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "an embrace; a lunar mansion (nakshatra)",
+      "tier": "rare"
+    },
+    {
+      "name": "Asmita",
+      "gender": "girl",
+      "origin": "Marathi",
+      "meaning": "pride, self-respect",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Avantika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "ancient name of Ujjain; a princess",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bhagyashree",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "auspicious, fortunate",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bhairavi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a fierce form of the goddess; a raga",
+      "tier": "rare"
+    },
+    {
+      "name": "Bhakti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "devotion",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bhavani",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "giver of being; a name of Parvati",
+      "tier": "rare"
+    },
+    {
+      "name": "Bhavna",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "sentiment, feeling, imagination",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bhavika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "well-meaning, righteous",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bhavya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "grand, splendid, excellent",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bimbika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "round-faced, like a full image",
+      "tier": "rare"
+    },
+    {
+      "name": "Bindu",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "point, drop, focal dot",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Champa",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a fragrant flowering tree",
+      "tier": "rare"
+    },
+    {
+      "name": "Chandni",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "moonlight",
+      "tier": "popular"
+    },
+    {
+      "name": "Chandrika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "moonlight",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Charu",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "beautiful, lovely",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chhaya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "shadow, reflection, shade",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chitra",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "picture, bright, variegated; a nakshatra",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chitrangada",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "beautifully adorned; Arjuna's wife",
+      "tier": "rare"
+    },
+    {
+      "name": "Damini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "lightning",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Darshika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "one who perceives, mirror-like",
+      "tier": "rare"
+    },
+    {
+      "name": "Deepa",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "lamp, light",
+      "tier": "popular"
+    },
+    {
+      "name": "Deepali",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "row of lamps",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Deepta",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "lit, shining",
+      "tier": "rare"
+    },
+    {
+      "name": "Deepti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "brightness, radiance",
+      "tier": "popular"
+    },
+    {
+      "name": "Devani",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "of the gods, divine",
+      "tier": "rare"
+    },
+    {
+      "name": "Devi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "goddess",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Dhara",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "earth; a stream, flow",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Dhanashree",
+      "gender": "girl",
+      "origin": "Marathi",
+      "meaning": "a raga; a name of Lakshmi",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Dhruvi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "firm, constant like the pole star",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Diya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "lamp, light",
+      "tier": "popular"
+    },
+    {
+      "name": "Durgee",
+      "gender": "girl",
+      "origin": "Marathi",
+      "meaning": "a name of the goddess Durga",
+      "tier": "rare"
+    },
+    {
+      "name": "Ekdant",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "single-tusked; a name of Ganesha",
+      "tier": "rare"
+    },
+    {
+      "name": "Ekta",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "unity, oneness",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Esha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "desire, wish; a name of Parvati",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Eshani",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a name of Parvati, wife of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Falguni",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "born in the month of Falgun; a raga",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ganga",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "the river Ganges, swift-going",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Gayatri",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a sacred Vedic mantra and meter; the goddess",
+      "tier": "popular"
+    },
+    {
+      "name": "Girija",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "mountain-born; a name of Parvati",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Gitanjali",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "an offering of songs",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Gauri",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "fair, bright; a name of Parvati",
+      "tier": "popular"
+    },
+    {
+      "name": "Gunjan",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "the hum of bees",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hamsini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "one who rides a swan; Saraswati",
+      "tier": "rare"
+    },
+    {
+      "name": "Hema",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "golden",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hemali",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "golden creeper",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hiral",
+      "gender": "girl",
+      "origin": "Gujarati",
+      "meaning": "diamond",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hitaishi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "well-wisher, benevolent",
+      "tier": "rare"
+    },
+    {
+      "name": "Hridaynath",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "lord of the heart",
+      "tier": "rare"
+    },
+    {
+      "name": "Ila",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "earth, speech; a queen in the Vedas",
+      "tier": "rare"
+    },
+    {
+      "name": "Indira",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "beauty, splendour; a name of Lakshmi",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Indrani",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "wife of Indra, queen of the gods",
+      "tier": "rare"
+    },
+    {
+      "name": "Indu",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "the moon",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ishani",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "wife of Shiva; the ruling goddess",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ishita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "superior, mistress, desired",
+      "tier": "popular"
+    },
+    {
+      "name": "Jahanara",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "adornment of the world; Shah Jahan's daughter",
+      "tier": "rare"
+    },
+    {
+      "name": "Janki",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "daughter of Janaka; Sita",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jasoda",
+      "gender": "girl",
+      "origin": "Gujarati",
+      "meaning": "a Gujarati form of Yashoda, Krishna's foster mother",
+      "tier": "rare"
+    },
+    {
+      "name": "Jaya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "victory",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jigna",
+      "gender": "girl",
+      "origin": "Gujarati",
+      "meaning": "curious, inquisitive",
+      "tier": "rare"
+    },
+    {
+      "name": "Jyoti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "light, flame",
+      "tier": "popular"
+    },
+    {
+      "name": "Kadambari",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a goddess; name of the heroine of a Sanskrit romance",
+      "tier": "rare"
+    },
+    {
+      "name": "Kajal",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "kohl, eye-liner",
+      "tier": "popular"
+    },
+    {
+      "name": "Kalyani",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "auspicious, fortunate; a raga",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kamala",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "lotus; a name of Lakshmi",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kamini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "desirable, beautiful woman",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kanchan",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "gold, golden",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kanti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "beauty, radiance, loveliness",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Karuna",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "compassion, mercy",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kashvi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "shining, bright, radiant",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kaveri",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "a sacred river of South India",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ketaki",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a fragrant flowering plant",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Khushi",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "happiness, delight",
+      "tier": "popular"
+    },
+    {
+      "name": "Kiranmala",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "garland of sunbeams; a heroine of Bengali folklore",
+      "tier": "rare"
+    },
+    {
+      "name": "Kokila",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "the cuckoo, sweet-voiced bird",
+      "tier": "rare"
+    },
+    {
+      "name": "Komal",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "soft, delicate, tender",
+      "tier": "popular"
+    },
+    {
+      "name": "Koyal",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "the cuckoo, songbird",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Karpuri",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "camphor; white and pure",
+      "tier": "rare"
+    },
+    {
+      "name": "Krishnaveni",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "a name of the river Krishna, three-braided",
+      "tier": "rare"
+    },
+    {
+      "name": "Kumari",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "princess, maiden",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kusum",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "flower, blossom",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Lakshmi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "goal, mark; goddess of fortune",
+      "tier": "popular"
+    },
+    {
+      "name": "Lalita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "playful, charming; a goddess",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Lata",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "vine, creeper",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Lavanya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "grace, beauty",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Leela",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "divine play, sport",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Lohana",
+      "gender": "girl",
+      "origin": "Marathi",
+      "meaning": "of red colour; a community name",
+      "tier": "rare"
+    },
+    {
+      "name": "Madhavi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "spring-born; a fragrant vine",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Madhuri",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "sweetness, charm",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mahima",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "greatness, glory",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mahua",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "a flowering tree of India",
+      "tier": "rare"
+    },
+    {
+      "name": "Malti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a fragrant jasmine vine",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Manasi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "of the mind, mind-born",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mandakini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a gently flowing celestial river",
+      "tier": "rare"
+    },
+    {
+      "name": "Manisha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "intellect, wisdom",
+      "tier": "popular"
+    },
+    {
+      "name": "Manju",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "pleasant, sweet, charming",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mansvi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "intelligent, of firm mind",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Meena",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "precious gem; fish",
+      "tier": "popular"
+    },
+    {
+      "name": "Menaka",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a celestial nymph of the gods",
+      "tier": "rare"
+    },
+    {
+      "name": "Mitali",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "friendship",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mohini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "the enchantress; Vishnu's female avatar",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mousumi",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "of the season, monsoon-born",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mridula",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "soft, gentle",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mrinalini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a collection of lotus stalks; soft as lotus stems",
+      "tier": "rare"
+    },
+    {
+      "name": "Mukti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "liberation, freedom",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Naina",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "eyes",
+      "tier": "popular"
+    },
+    {
+      "name": "Nalini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "lotus",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Namrata",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "modesty, humility",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nandini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "bestower of joy; a wish-fulfilling cow",
+      "tier": "popular"
+    },
+    {
+      "name": "Neela",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "blue, sapphire",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Netra",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "eye, leader of vision",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nidhi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "treasure",
+      "tier": "popular"
+    },
+    {
+      "name": "Niharika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "dewdrop; a nebulous garland of stars",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nikita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "residence; the earth",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nimmi",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "a pet form of names like Nirmala",
+      "tier": "rare"
+    },
+    {
+      "name": "Nirupama",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "incomparable, peerless",
+      "tier": "rare"
+    },
+    {
+      "name": "Nisha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "night",
+      "tier": "popular"
+    },
+    {
+      "name": "Nishtha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "devotion, faith, resolve",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nutan",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "new, novel",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Padma",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "lotus",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Padmakshi",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "lotus-eyed",
+      "tier": "rare"
+    },
+    {
+      "name": "Padmini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "lotus-holder; a famed queen of Chittor",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Pallavi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "new leaves, fresh shoots",
+      "tier": "popular"
+    },
+    {
+      "name": "Pankhudi",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "petal",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Payal",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "anklet",
+      "tier": "popular"
+    },
+    {
+      "name": "Phulwari",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "flower garden",
+      "tier": "rare"
+    },
+    {
+      "name": "Poornima",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "full-moon night",
+      "tier": "popular"
+    },
+    {
+      "name": "Poonam",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "full-moon night",
+      "tier": "popular"
+    },
+    {
+      "name": "Prachi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "east, the direction of dawn",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Pratibha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "talent, brilliance, light",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Prerna",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "inspiration",
+      "tier": "popular"
+    },
+    {
+      "name": "Preeti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "love, affection",
+      "tier": "popular"
+    },
+    {
+      "name": "Priya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "beloved, dear",
+      "tier": "popular"
+    },
+    {
+      "name": "Priyanka",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a mark of love; affectionate",
+      "tier": "popular"
+    },
+    {
+      "name": "Priyashi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "most beloved",
+      "tier": "rare"
+    },
+    {
+      "name": "Pujya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "worshipped, venerable",
+      "tier": "rare"
+    },
+    {
+      "name": "Radha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "prosperity, success; Krishna's beloved",
+      "tier": "popular"
+    },
+    {
+      "name": "Radhika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "prosperous, successful; a name of Radha",
+      "tier": "popular"
+    },
+    {
+      "name": "Ragini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a melodic mode in Indian classical music",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rajani",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "night",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rajeshwari",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "queen of kings; a form of Durga",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rakhsha",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "protection",
+      "tier": "rare"
+    },
+    {
+      "name": "Rama",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "pleasing, delightful; the hero of the Ramayana",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ruchi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "taste, liking, radiance",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rukmini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "chief queen of Krishna in tradition",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rupali",
+      "gender": "girl",
+      "origin": "Marathi",
+      "meaning": "beautiful, of silver",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rupsha",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "beautiful form",
+      "tier": "rare"
+    },
+    {
+      "name": "Saanvi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a name of the goddess Lakshmi",
+      "tier": "popular"
+    },
+    {
+      "name": "Sadhana",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "practice, spiritual discipline",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sagarika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "of the sea, wave-born",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sahana",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "endurance, patience; a Carnatic raga",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sakshi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "witness",
+      "tier": "popular"
+    },
+    {
+      "name": "Samiksha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "overview, review, observation",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Samruddhi",
+      "gender": "girl",
+      "origin": "Marathi",
+      "meaning": "prosperity, abundance",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sandhya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "twilight, the hour of prayer",
+      "tier": "popular"
+    },
+    {
+      "name": "Sanjana",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "gentle; name of the sun god's wife",
+      "tier": "popular"
+    },
+    {
+      "name": "Sanskriti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "culture, refinement",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sapna",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "dream",
+      "tier": "popular"
+    },
+    {
+      "name": "Saraswati",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "goddess of learning; watery, flowing",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sarita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "river",
+      "tier": "popular"
+    },
+    {
+      "name": "Sarala",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "straight, simple, honest",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sarika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a songbird, the maina",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Saswati",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "eternal, everlasting",
+      "tier": "rare"
+    },
+    {
+      "name": "Savitri",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "of the sun; a sacred meter; a famed devoted wife",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shailaja",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "mountain-born; a name of Parvati",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shalini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "modest, skilled, householder",
+      "tier": "popular"
+    },
+    {
+      "name": "Shanta",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "calm, peaceful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shanti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "peace, tranquillity",
+      "tier": "popular"
+    },
+    {
+      "name": "Sharvari",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "night, born at night",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shikha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "flame, crest",
+      "tier": "popular"
+    },
+    {
+      "name": "Shilpa",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "art, sculpture",
+      "tier": "popular"
+    },
+    {
+      "name": "Shobha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "splendour, beauty",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shree",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "radiance, prosperity; Lakshmi",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shreya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "auspicious, excellent",
+      "tier": "popular"
+    },
+    {
+      "name": "Shreyashi",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "the best, most auspicious",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shraddha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "faith, devotion",
+      "tier": "popular"
+    },
+    {
+      "name": "Shrishti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "creation, the universe",
+      "tier": "popular"
+    },
+    {
+      "name": "Shruti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "that which is heard; the Vedas",
+      "tier": "popular"
+    },
+    {
+      "name": "Shveta",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "white, fair",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shyla",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "of the mountain, Kali",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Siddhi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "accomplishment, spiritual power",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Simran",
+      "gender": "girl",
+      "origin": "Punjabi",
+      "meaning": "remembrance, meditation on God",
+      "tier": "popular"
+    },
+    {
+      "name": "Sita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "furrow; Rama's wife, the earth's daughter",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Smriti",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "memory; a class of sacred texts",
+      "tier": "popular"
+    },
+    {
+      "name": "Sneha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "affection, friendship",
+      "tier": "popular"
+    },
+    {
+      "name": "Snehalksha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "gaze of love",
+      "tier": "rare"
+    },
+    {
+      "name": "Sona",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "gold",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sowbhagya",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "good fortune, prosperity",
+      "tier": "rare"
+    },
+    {
+      "name": "Subhashini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "soft-spoken, of good speech",
+      "tier": "rare"
+    },
+    {
+      "name": "Suchitra",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "of beautiful picture, lovely",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sudha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "nectar",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sugandha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "fragrance",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Suhana",
+      "gender": "girl",
+      "origin": "Hindi",
+      "tier": "popular"
+    },
+    {
+      "name": "Sujata",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "of good birth, well-born",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sumana",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "good-hearted, kind",
+      "tier": "rare"
+    },
+    {
+      "name": "Sumedha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "wise, intelligent",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sumitra",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "good friend; mother of Lakshmana",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sunaina",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "beautiful eyes",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sunita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "well-guided, of good conduct",
+      "tier": "popular"
+    },
+    {
+      "name": "Supriya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "greatly beloved",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Surabhi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a wish-fulfilling cow; fragrant",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Suruchi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "of good taste, delightful",
+      "tier": "rare"
+    },
+    {
+      "name": "Sushma",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "beautiful woman, resplendent",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sushmita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "with a lovely smile",
+      "tier": "popular"
+    },
+    {
+      "name": "Suvarna",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "gold, golden",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Swara",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "musical note, tone",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Swarna",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "gold, golden",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Swati",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a nakshatra; a raindrop under that star",
+      "tier": "popular"
+    },
+    {
+      "name": "Swayamprabha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "self-luminous, radiant on her own",
+      "tier": "rare"
+    },
+    {
+      "name": "Tamanna",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "desire, wish",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Tanvi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "slender, delicate",
+      "tier": "popular"
+    },
+    {
+      "name": "Tara",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "star; a form of the goddess",
+      "tier": "popular"
+    },
+    {
+      "name": "Tarala",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "honeybee; trembling, nimble",
+      "tier": "rare"
+    },
+    {
+      "name": "Tejal",
+      "gender": "girl",
+      "origin": "Gujarati",
+      "meaning": "radiant, full of energy",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Trupti",
+      "gender": "girl",
+      "origin": "Marathi",
+      "meaning": "contentment, satisfaction",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Tulsi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "holy basil, the sacred herb",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ujjwala",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "bright, brilliant",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Uma",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "light, tranquillity; a name of Parvati",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Urvashi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a celestial nymph; wide-thighed in old etymology",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Usha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "dawn",
+      "tier": "popular"
+    },
+    {
+      "name": "Ushakirana",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "ray of dawn",
+      "tier": "rare"
+    },
+    {
+      "name": "Vaani",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "speech; the goddess of speech",
+      "tier": "popular"
+    },
+    {
+      "name": "Vidya",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "knowledge, learning",
+      "tier": "popular"
+    },
+    {
+      "name": "Vinita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "humble, modest",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vrinda",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "holy basil; a cluster, Radha",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yamini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "night",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yashaswini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "glorious, successful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yashoda",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "Krishna's foster mother",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yogita",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a female yogi, united in yoga",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Zaverchand",
+      "gender": "boy",
+      "origin": "Gujarati",
+      "meaning": "gold-embraced; a noted Gujarati poet",
+      "tier": "rare"
+    },
+    {
+      "name": "Akilan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "worldly-wise; a celebrated Tamil author",
+      "tier": "rare"
+    },
+    {
+      "name": "Akila",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "the world, universe; all-knowing",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anbarasan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "king of love",
+      "tier": "rare"
+    },
+    {
+      "name": "Anbu",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "love, affection",
+      "tier": "rare"
+    },
+    {
+      "name": "Arunachalam",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "the holy hill of Arunachala; a name of Shiva",
+      "tier": "rare"
+    },
+    {
+      "name": "Arivazhagan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "of beautiful wisdom",
+      "tier": "rare"
+    },
+    {
+      "name": "Arul",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "grace, divine blessing",
+      "tier": "rare"
+    },
+    {
+      "name": "Arumugam",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "six-faced; a name of Murugan",
+      "tier": "rare"
+    },
+    {
+      "name": "Bhuvana",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "the world, universe",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chidambaram",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "home of Nataraja; a temple town's name",
+      "tier": "rare"
+    },
+    {
+      "name": "Chithra",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "picture, beautiful art",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Dhanapal",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "protector of wealth",
+      "tier": "rare"
+    },
+    {
+      "name": "Ezhil",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "beauty, splendour",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Gomathi",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "a name of the goddess; the Gomati river",
+      "tier": "rare"
+    },
+    {
+      "name": "Ilampirai",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "young crescent moon",
+      "tier": "rare"
+    },
+    {
+      "name": "Jeyam",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "victory",
+      "tier": "rare"
+    },
+    {
+      "name": "Kadhir",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "ray of light; the sun",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kannan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "a Tamil name of Krishna",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kannammal",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "dear-eyed girl, treasured one",
+      "tier": "rare"
+    },
+    {
+      "name": "Karpagam",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "a wish-fulfilling tree of heaven",
+      "tier": "rare"
+    },
+    {
+      "name": "Karthik",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "a name of the god Murugan; the month of Kartik",
+      "tier": "popular"
+    },
+    {
+      "name": "Kavignan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "poet, sage of verse",
+      "tier": "rare"
+    },
+    {
+      "name": "Kayal",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "a freshwater fish; classic image of beautiful eyes",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kolangal",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "an array of kolam patterns",
+      "tier": "rare"
+    },
+    {
+      "name": "Kovilan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "name of a Tamil literary hero",
+      "tier": "rare"
+    },
+    {
+      "name": "Kumaran",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "youthful one; a name of Murugan",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kural",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "a short verse; the Tirukkural",
+      "tier": "rare"
+    },
+    {
+      "name": "Lakshmanan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "Rama's loyal brother; one with auspicious marks",
+      "tier": "rare"
+    },
+    {
+      "name": "Madhi",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "the moon; wisdom",
+      "tier": "rare"
+    },
+    {
+      "name": "Malar",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "flower, blossom",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Malarvizhi",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "flower-eyed",
+      "tier": "rare"
+    },
+    {
+      "name": "Malliga",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "jasmine",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Maran",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "a name borne by Tamil kings and poets",
+      "tier": "rare"
+    },
+    {
+      "name": "Meenakshi",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "fish-eyed; the goddess of Madurai",
+      "tier": "popular"
+    },
+    {
+      "name": "Megala",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "crowned with clouds; a garland",
+      "tier": "rare"
+    },
+    {
+      "name": "Mithran",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "the sun; a friend",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mohanam",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "a Carnatic raga; enchantment",
+      "tier": "rare"
+    },
+    {
+      "name": "Murugan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "the Tamil war god, the beautiful one",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Muthu",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "pearl",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Muthulakshmi",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "pearl-like Lakshmi",
+      "tier": "rare"
+    },
+    {
+      "name": "Nambi",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "one who trusts; a devotee of Shiva",
+      "tier": "rare"
+    },
+    {
+      "name": "Nila",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "the moon",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nirmala",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "pure, spotless",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Paari",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "a legendary Tamil king famed for generosity",
+      "tier": "rare"
+    },
+    {
+      "name": "Ponni",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "golden one; a name of the river Kaveri",
+      "tier": "rare"
+    },
+    {
+      "name": "Poongodi",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "young flowering creeper",
+      "tier": "rare"
+    },
+    {
+      "name": "Prabha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "light, radiance",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Pugal",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "fame, praise",
+      "tier": "rare"
+    },
+    {
+      "name": "Puratchi",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "revolution",
+      "tier": "rare"
+    },
+    {
+      "name": "Ramaswamy",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "lord Rama, the auspicious one",
+      "tier": "rare"
+    },
+    {
+      "name": "Revathi",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "wealthy; a nakshatra; Balarama's wife",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rohini",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "the red one; a nakshatra",
+      "tier": "popular"
+    },
+    {
+      "name": "Sadhanandam",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "joy of attainment",
+      "tier": "rare"
+    },
+    {
+      "name": "Salem",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "a city and district of Tamil Nadu",
+      "tier": "rare"
+    },
+    {
+      "name": "Selvan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "prosperous, fortunate youth",
+      "tier": "rare"
+    },
+    {
+      "name": "Selvi",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "prosperous young woman",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sembian",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "of the Chola line; a title of Chola princes",
+      "tier": "rare"
+    },
+    {
+      "name": "Sena",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "army, host",
+      "tier": "rare"
+    },
+    {
+      "name": "Senthil",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "a name of the god Murugan",
+      "tier": "popular"
+    },
+    {
+      "name": "Sivam",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "auspiciousness; Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sivagami",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "a name of the goddess, Shiva's consort",
+      "tier": "rare"
+    },
+    {
+      "name": "Sneham",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "love, affection",
+      "tier": "rare"
+    },
+    {
+      "name": "Solai",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "grove, mango grove",
+      "tier": "rare"
+    },
+    {
+      "name": "Sundar",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "handsome, beautiful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sundari",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "beautiful woman",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Suriyan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "the sun",
+      "tier": "rare"
+    },
+    {
+      "name": "Tamilarasi",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "queen of the Tamil people",
+      "tier": "rare"
+    },
+    {
+      "name": "Thendral",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "gentle southern breeze",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Thilagam",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "mark of distinction, ornament",
+      "tier": "rare"
+    },
+    {
+      "name": "Thiru",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "holy, sacred; honorific prefix",
+      "tier": "rare"
+    },
+    {
+      "name": "Thulasi",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "holy basil, the sacred herb",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vairamuthu",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "pearl of diamonds, precious speech",
+      "tier": "rare"
+    },
+    {
+      "name": "Valli",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "a climbing vine; Murugan's consort",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vanoli",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "radio; one who speaks to the world",
+      "tier": "rare"
+    },
+    {
+      "name": "Vasanthi",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "of the spring season",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vedanayagam",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "treasure of the Vedas",
+      "tier": "rare"
+    },
+    {
+      "name": "Vel",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "the divine spear of Murugan",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Velmurugan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "Murugan of the sacred spear",
+      "tier": "rare"
+    },
+    {
+      "name": "Venba",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "a form of classical Tamil verse",
+      "tier": "rare"
+    },
+    {
+      "name": "Vennila",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "the white moon, full moon",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vetri",
+      "gender": "neutral",
+      "origin": "Tamil",
+      "meaning": "victory",
+      "tier": "rare"
+    },
+    {
+      "name": "Yazhini",
+      "gender": "girl",
+      "origin": "Tamil",
+      "meaning": "a name of Saraswati; one graceful as the yazh harp",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yugan",
+      "gender": "boy",
+      "origin": "Tamil",
+      "meaning": "of the cosmic ages",
+      "tier": "rare"
+    },
+    {
+      "name": "Ananda",
+      "gender": "neutral",
+      "origin": "Telugu",
+      "meaning": "bliss, joy",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anirudhvarma",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "unrestrained king; a royal name",
+      "tier": "rare"
+    },
+    {
+      "name": "Apparao",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "father-like lord; a classic Telugu name",
+      "tier": "rare"
+    },
+    {
+      "name": "Balaji",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "a name of the god Venkateswara",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bapu",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "father; an affectionate name for Gandhi",
+      "tier": "rare"
+    },
+    {
+      "name": "Bharati",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "epithet of Saraswati, goddess of speech",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Brahmanandam",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "bliss of the Absolute",
+      "tier": "rare"
+    },
+    {
+      "name": "Bujji",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "a term of endearment, little darling",
+      "tier": "rare"
+    },
+    {
+      "name": "Chandana",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "sandalwood",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Chiranjeevi",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "immortal, long-lived",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Deepika",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "a little lamp, light",
+      "tier": "popular"
+    },
+    {
+      "name": "Gowri",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "fair, bright; a name of Parvati",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Harika",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "a name of the goddess Parvati",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hemasri",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "golden radiance",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jwala",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "flame",
+      "tier": "rare"
+    },
+    {
+      "name": "Kiranmai",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "full of light, radiance",
+      "tier": "rare"
+    },
+    {
+      "name": "Krishnamurthy",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "Krishna as lord",
+      "tier": "rare"
+    },
+    {
+      "name": "Lakshminarayana",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "Vishnu with Lakshmi",
+      "tier": "rare"
+    },
+    {
+      "name": "Latha",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "vine, creeper",
+      "tier": "rare"
+    },
+    {
+      "name": "Madhava",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "of the spring; a name of Krishna",
+      "tier": "rare"
+    },
+    {
+      "name": "Mahalakshmi",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "the great Lakshmi",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mahati",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "greatness; a raga",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Manikanta",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "gem-necklaced; a name of Ayyappa",
+      "tier": "rare"
+    },
+    {
+      "name": "Manorama",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "pleasing to the mind, charming",
+      "tier": "rare"
+    },
+    {
+      "name": "Maruti",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "son of the wind; Hanuman",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mohan Babu",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "Krishna the beloved",
+      "tier": "rare"
+    },
+    {
+      "name": "Nageswara",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "lord of serpents; Shiva",
+      "tier": "rare"
+    },
+    {
+      "name": "Nandita",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "one who spreads joy",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Naveena",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "new, fresh",
+      "tier": "rare"
+    },
+    {
+      "name": "Obulesu",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "a devoted name of Venkateswara",
+      "tier": "rare"
+    },
+    {
+      "name": "Padmaja",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "lotus-born",
+      "tier": "rare"
+    },
+    {
+      "name": "Pavani",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "pure, holy; a name of Ganga",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Phanindra",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "king of serpents",
+      "tier": "rare"
+    },
+    {
+      "name": "Pranitha",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "one who is devoted; praise",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Prasanna Lakshmi",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "smiling, benign Lakshmi",
+      "tier": "rare"
+    },
+    {
+      "name": "Raghunatha",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "lord of the Raghu clan; Rama",
+      "tier": "rare"
+    },
+    {
+      "name": "Raghavendra",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "lord of the Raghu line; a revered saint",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rajyalakshmi",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "royal Lakshmi, empress of fortune",
+      "tier": "rare"
+    },
+    {
+      "name": "Ramya",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "beautiful, delightful",
+      "tier": "popular"
+    },
+    {
+      "name": "Ravi",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the sun",
+      "tier": "popular"
+    },
+    {
+      "name": "Sai",
+      "gender": "neutral",
+      "origin": "Telugu",
+      "meaning": "divine; a name of Shirdi Sai Baba",
+      "tier": "popular"
+    },
+    {
+      "name": "Samatha",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "equal-minded, calm",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Santhoshi",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "goddess of contentment",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sarvani",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "universal goddess; Parvati",
+      "tier": "rare"
+    },
+    {
+      "name": "Satyanarayana",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "Vishnu as truth itself",
+      "tier": "rare"
+    },
+    {
+      "name": "Shanthamani",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "jewel of peace",
+      "tier": "rare"
+    },
+    {
+      "name": "Sharada",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "a name of Saraswati",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sirisha",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "a fragrant flowering tree",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sivakumara",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "son of Shiva; Murugan",
+      "tier": "rare"
+    },
+    {
+      "name": "Sriya",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "Lakshmi, prosperity",
+      "tier": "popular"
+    },
+    {
+      "name": "Sudhakar",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "moon, the nectar-maker",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sumalatha",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "a garland of flowers",
+      "tier": "rare"
+    },
+    {
+      "name": "Sunanda",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "of pleasing nature, sweet",
+      "tier": "rare"
+    },
+    {
+      "name": "Suryakant",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "beloved of the sun; the sunstone",
+      "tier": "rare"
+    },
+    {
+      "name": "Swarnalatha",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "golden vine, golden creeper",
+      "tier": "rare"
+    },
+    {
+      "name": "Tejaswini",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "radiant, full of fire",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Udaykiran",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "rising ray of dawn",
+      "tier": "rare"
+    },
+    {
+      "name": "Vanaja",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "forest-born girl",
+      "tier": "rare"
+    },
+    {
+      "name": "Vedavathi",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "of the Vedas; a name of Sita in a former birth",
+      "tier": "rare"
+    },
+    {
+      "name": "Venkata",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "a name of the hill god Venkateswara",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Venkatesh",
+      "gender": "boy",
+      "origin": "Telugu",
+      "meaning": "lord of the Venkata hill; Vishnu",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vijaya",
+      "gender": "neutral",
+      "origin": "Telugu",
+      "meaning": "victory",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yamuna",
+      "gender": "girl",
+      "origin": "Telugu",
+      "meaning": "the river Yamuna",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Aruna",
+      "gender": "neutral",
+      "origin": "Telugu",
+      "meaning": "the glow of dawn",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Basavraj",
+      "gender": "boy",
+      "origin": "Kannada",
+      "meaning": "lord of the bull; a revered poet-saint",
+      "tier": "rare"
+    },
+    {
+      "name": "Channabasava",
+      "gender": "boy",
+      "origin": "Kannada",
+      "meaning": "graceful bull; a saint's name",
+      "tier": "rare"
+    },
+    {
+      "name": "Devaraj",
+      "gender": "boy",
+      "origin": "Kannada",
+      "meaning": "king of the gods",
+      "tier": "rare"
+    },
+    {
+      "name": "Doddanna",
+      "gender": "boy",
+      "origin": "Kannada",
+      "meaning": "elder brother, a term of respect",
+      "tier": "rare"
+    },
+    {
+      "name": "Kavyashree",
+      "gender": "girl",
+      "origin": "Kannada",
+      "meaning": "radiance of poetry",
+      "tier": "rare"
+    },
+    {
+      "name": "Krishnaraj",
+      "gender": "boy",
+      "origin": "Kannada",
+      "meaning": "Krishna as king",
+      "tier": "rare"
+    },
+    {
+      "name": "Shivakumar",
+      "gender": "boy",
+      "origin": "Kannada",
+      "meaning": "son of Shiva; Kartikeya",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Srinath",
+      "gender": "boy",
+      "origin": "Kannada",
+      "meaning": "abode of Lakshmi; Venkateswara",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vishwanath",
+      "gender": "boy",
+      "origin": "Kannada",
+      "meaning": "lord of the universe; Shiva",
+      "tier": "rare"
+    },
+    {
+      "name": "Ambili",
+      "gender": "girl",
+      "origin": "Malayalam",
+      "meaning": "the moon, gentle moonlight",
+      "tier": "rare"
+    },
+    {
+      "name": "Anilk",
+      "gender": "boy",
+      "origin": "Malayalam",
+      "meaning": "wind, air",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Aravind",
+      "gender": "boy",
+      "origin": "Malayalam",
+      "meaning": "the lotus",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ashwathi",
+      "gender": "girl",
+      "origin": "Malayalam",
+      "meaning": "a nakshatra, the horse-head mansion",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Devan",
+      "gender": "boy",
+      "origin": "Malayalam",
+      "meaning": "of the gods, divine",
+      "tier": "rare"
+    },
+    {
+      "name": "Gopika",
+      "gender": "girl",
+      "origin": "Malayalam",
+      "meaning": "a gopi, a devoted cowherd girl",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jayachandran",
+      "gender": "boy",
+      "origin": "Malayalam",
+      "meaning": "victorious moon",
+      "tier": "rare"
+    },
+    {
+      "name": "Jishnu",
+      "gender": "boy",
+      "origin": "Malayalam",
+      "meaning": "triumphant; a name of Arjuna",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Krishnadas",
+      "gender": "boy",
+      "origin": "Malayalam",
+      "meaning": "servant of Krishna",
+      "tier": "rare"
+    },
+    {
+      "name": "Lakshmi Devi",
+      "gender": "girl",
+      "origin": "Malayalam",
+      "meaning": "the goddess Lakshmi",
+      "tier": "rare"
+    },
+    {
+      "name": "Nithin",
+      "gender": "boy",
+      "origin": "Malayalam",
+      "meaning": "of principled conduct",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Prathibha",
+      "gender": "girl",
+      "origin": "Malayalam",
+      "meaning": "talent, brilliance",
+      "tier": "rare"
+    },
+    {
+      "name": "Remya",
+      "gender": "girl",
+      "origin": "Malayalam",
+      "meaning": "beautiful, pleasing",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shwetha",
+      "gender": "girl",
+      "origin": "Malayalam",
+      "meaning": "white, fair",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sudhi",
+      "gender": "neutral",
+      "origin": "Malayalam",
+      "meaning": "of good conduct, purity",
+      "tier": "rare"
+    },
+    {
+      "name": "Unni",
+      "gender": "neutral",
+      "origin": "Malayalam",
+      "meaning": "little one, a child",
+      "tier": "rare"
+    },
+    {
+      "name": "Vineeth",
+      "gender": "boy",
+      "origin": "Malayalam",
+      "meaning": "humble, disciplined",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Viswanathan",
+      "gender": "boy",
+      "origin": "Malayalam",
+      "meaning": "lord of the universe; Shiva",
+      "tier": "rare"
+    },
+    {
+      "name": "Abhilash",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "desire, aspiration",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anirban",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "the eternal flame, undying light",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anwesha",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "quest, one who seeks",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Arka",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "a ray of light; a name of the sun",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Arnab",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "ocean, sea",
+      "tier": "popular"
+    },
+    {
+      "name": "Arunava",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "of the sun, sunlit",
+      "tier": "rare"
+    },
+    {
+      "name": "Bhoomi",
+      "gender": "girl",
+      "origin": "Gujarati",
+      "meaning": "the earth",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bimal",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "pure, spotless",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Biswa",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "the universe",
+      "tier": "rare"
+    },
+    {
+      "name": "Chirantanee",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "immortal one",
+      "tier": "rare"
+    },
+    {
+      "name": "Debangshu",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "of divine limbs, godly",
+      "tier": "rare"
+    },
+    {
+      "name": "Dhiman",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "wise, learned",
+      "tier": "rare"
+    },
+    {
+      "name": "Doyel",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "the magpie robin, a sweet songbird",
+      "tier": "rare"
+    },
+    {
+      "name": "Drishti",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "vision, sight",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Gargi",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "an ancient woman philosopher of the Upanishads",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ishan",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "the sun; the northeast; a name of Shiva",
+      "tier": "popular"
+    },
+    {
+      "name": "Jhilik",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "sparkle, glimmer",
+      "tier": "rare"
+    },
+    {
+      "name": "Jhinuk",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "oyster shell, pearl-holder",
+      "tier": "rare"
+    },
+    {
+      "name": "Kaushik",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "a name of the sage Vishvamitra",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Labanya",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "grace, loveliness",
+      "tier": "rare"
+    },
+    {
+      "name": "Laboni",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "of exquisite grace",
+      "tier": "rare"
+    },
+    {
+      "name": "Lopamudra",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "an ancient Vedic woman sage",
+      "tier": "rare"
+    },
+    {
+      "name": "Mainak",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "a mountain that sheltered Hanuman",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mou",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "a term of endearment, sweetheart",
+      "tier": "rare"
+    },
+    {
+      "name": "Nabarun",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "new morning sun",
+      "tier": "rare"
+    },
+    {
+      "name": "Nilanjan",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "blue-hued, dark-complexioned",
+      "tier": "rare"
+    },
+    {
+      "name": "Oishani",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "a name of the goddess Durga",
+      "tier": "rare"
+    },
+    {
+      "name": "Oishik",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "of the heavens, celestial",
+      "tier": "rare"
+    },
+    {
+      "name": "Pratyusha",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "early morning, dawn",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Proloy",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "storm",
+      "tier": "rare"
+    },
+    {
+      "name": "Rachana",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "creation, composition",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rajatava",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "of silver, silvery white",
+      "tier": "rare"
+    },
+    {
+      "name": "Sampurna",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "complete, whole",
+      "tier": "rare"
+    },
+    {
+      "name": "Sanghamitra",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "friend of the sangha; emperor Ashoka's daughter",
+      "tier": "rare"
+    },
+    {
+      "name": "Sarbajit",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "conqueror of all",
+      "tier": "rare"
+    },
+    {
+      "name": "Shibaji",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "a Bengali name of Shiva",
+      "tier": "rare"
+    },
+    {
+      "name": "Shubho",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "auspicious",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shubhrokamal",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "fair lotus",
+      "tier": "rare"
+    },
+    {
+      "name": "Sourin",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "of the sun",
+      "tier": "rare"
+    },
+    {
+      "name": "Srijan",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "creation, creativity",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sudipto",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "bright, radiant",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sujan",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "wise, good-hearted",
+      "tier": "rare"
+    },
+    {
+      "name": "Tithi",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "a lunar day",
+      "tier": "rare"
+    },
+    {
+      "name": "Tori",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "a boat; a parakeet in poetry",
+      "tier": "rare"
+    },
+    {
+      "name": "Tamoghna",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "one who conquers darkness",
+      "tier": "rare"
+    },
+    {
+      "name": "Utsav",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "festival, celebration",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Utsargo",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "offering, dedication",
+      "tier": "rare"
+    },
+    {
+      "name": "Arnesh",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "lord of the sea",
+      "tier": "rare"
+    },
+    {
+      "name": "Rupankar",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "of beautiful form",
+      "tier": "rare"
+    },
+    {
+      "name": "Souradeepa",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "ray of the sun",
+      "tier": "rare"
+    },
+    {
+      "name": "Dipanwita",
+      "gender": "girl",
+      "origin": "Bengali",
+      "meaning": "one who kindles lamps",
+      "tier": "rare"
+    },
+    {
+      "name": "Chintamani",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "a wish-fulfilling jewel",
+      "tier": "rare"
+    },
+    {
+      "name": "Dnyaneshwar",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "lord of knowledge; a revered Marathi saint",
+      "tier": "rare"
+    },
+    {
+      "name": "Eknath",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "a revered Marathi saint",
+      "tier": "rare"
+    },
+    {
+      "name": "Kedar",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "a name of Shiva; a Himalayan shrine",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Makarand",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "honey, nectar of flowers",
+      "tier": "rare"
+    },
+    {
+      "name": "Manik",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "a gem, ruby",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mrinal",
+      "gender": "neutral",
+      "origin": "Marathi",
+      "meaning": "a lotus, lotus-stalk",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Samarth",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "capable, powerful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sushila",
+      "gender": "girl",
+      "origin": "Marathi",
+      "meaning": "of good conduct, virtuous",
+      "tier": "rare"
+    },
+    {
+      "name": "Tukaram",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "a revered Marathi saint-poet",
+      "tier": "rare"
+    },
+    {
+      "name": "Vasant",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "spring",
+      "tier": "rare"
+    },
+    {
+      "name": "Vitthal",
+      "gender": "boy",
+      "origin": "Marathi",
+      "meaning": "a name of Vishnu worshipped at Pandharpur",
+      "tier": "rare"
+    },
+    {
+      "name": "Aman",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "peace",
+      "tier": "popular"
+    },
+    {
+      "name": "Amandeep",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "lamp of peace",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Amrit",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "nectar of immortality",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Amritpal",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "protector of the nectar of immortality",
+      "tier": "rare"
+    },
+    {
+      "name": "Anhad",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "the unstruck melody, limitless sound",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Arshdeep",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "lamp of the heavens",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Balbir",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "strong and brave",
+      "tier": "rare"
+    },
+    {
+      "name": "Balraj",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "mighty king",
+      "tier": "rare"
+    },
+    {
+      "name": "Bhagat",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "devotee, saint",
+      "tier": "rare"
+    },
+    {
+      "name": "Charandeep",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "light at the feet of God",
+      "tier": "rare"
+    },
+    {
+      "name": "Dalbir",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "brave of the troop, valiant",
+      "tier": "rare"
+    },
+    {
+      "name": "Damandeep",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "lamp of restraint",
+      "tier": "rare"
+    },
+    {
+      "name": "Deep",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "lamp, light",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ekam",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "oneness, the One supreme",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Gaganpreet",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "love of the sky",
+      "tier": "rare"
+    },
+    {
+      "name": "Gur",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "the Guru",
+      "tier": "rare"
+    },
+    {
+      "name": "Gurbani",
+      "gender": "girl",
+      "origin": "Punjabi",
+      "meaning": "the Guru's word, the scripture",
+      "tier": "rare"
+    },
+    {
+      "name": "Gurleen",
+      "gender": "girl",
+      "origin": "Punjabi",
+      "meaning": "absorbed in the Guru",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Gurpreet",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "love of the Guru",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Gurtej",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "the Guru's support",
+      "tier": "rare"
+    },
+    {
+      "name": "Harbhajan",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "one who invokes God",
+      "tier": "rare"
+    },
+    {
+      "name": "Harjeet",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "victorious through God",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Harnoor",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "gift of God",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Harpreet",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "love of God",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Inderjit",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "victory of the Lord",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jasbir",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "brave as the Lord",
+      "tier": "rare"
+    },
+    {
+      "name": "Jasleen",
+      "gender": "girl",
+      "origin": "Punjabi",
+      "meaning": "absorbed in God's praise",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jaspreet",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "one who sings God's praises",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jaskaran",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "one of good deeds",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jaskirat",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "one who sings God's praises",
+      "tier": "rare"
+    },
+    {
+      "name": "Kawaljeet",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "victorious lotus",
+      "tier": "rare"
+    },
+    {
+      "name": "Kirat",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "praise, deeds of devotion",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Komalpreet",
+      "gender": "girl",
+      "origin": "Punjabi",
+      "meaning": "gentle-hearted love",
+      "tier": "rare"
+    },
+    {
+      "name": "Manjot",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "light of the mind",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mannat",
+      "gender": "girl",
+      "origin": "Punjabi",
+      "meaning": "a vow or wish made to God",
+      "tier": "popular"
+    },
+    {
+      "name": "Manpreet",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "joy of the heart",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Navjot",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "the ever-new light",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nimrat",
+      "gender": "girl",
+      "origin": "Punjabi",
+      "meaning": "humility",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Prabh",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "God, the Lord",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Prabhjot",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "light of God",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Prabhsimran",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "remembrance of God",
+      "tier": "rare"
+    },
+    {
+      "name": "Ravneet",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "the sun's lesson, light of the sun",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Simranjeet",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "victorious in remembrance of God",
+      "tier": "rare"
+    },
+    {
+      "name": "Sirjot",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "light of creation",
+      "tier": "rare"
+    },
+    {
+      "name": "Sukh",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "peace, contentment",
+      "tier": "rare"
+    },
+    {
+      "name": "Sukhchain",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "chain of peace",
+      "tier": "rare"
+    },
+    {
+      "name": "Sukhjeet",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "victorious in peace",
+      "tier": "rare"
+    },
+    {
+      "name": "Sukhmani",
+      "gender": "girl",
+      "origin": "Punjabi",
+      "meaning": "jewel of peace; a Sikh prayer",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sukhpreet",
+      "gender": "neutral",
+      "origin": "Punjabi",
+      "meaning": "love of peace",
+      "tier": "rare"
+    },
+    {
+      "name": "Tavleen",
+      "gender": "girl",
+      "origin": "Punjabi",
+      "meaning": "absorbed in God's grace",
+      "tier": "rare"
+    },
+    {
+      "name": "Tejinder",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "God of radiance, mighty as Indra",
+      "tier": "rare"
+    },
+    {
+      "name": "Upkar",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "benevolence, a favour",
+      "tier": "rare"
+    },
+    {
+      "name": "Virender",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "brave lord, chief of warriors",
+      "tier": "rare"
+    },
+    {
+      "name": "Waris",
+      "gender": "boy",
+      "origin": "Punjabi",
+      "meaning": "the inheritor, saintly claimant",
+      "tier": "rare"
+    },
+    {
+      "name": "Aadil",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "just, upright",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Aamir",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "full, thriving, prosperous",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Aariz",
+      "gender": "boy",
+      "origin": "Arabic",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Aatif",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "compassionate, affectionate",
+      "tier": "rare"
+    },
+    {
+      "name": "Ayesha",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "alive, prosperous; the Prophet's wife",
+      "tier": "popular"
+    },
+    {
+      "name": "Aiman",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "blessed, fortunate",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ameena",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "trustworthy, faithful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anwar",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "brighter, most luminous",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Arman",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "desire, wish",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Asad",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "lion",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Aslam",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "safer, freest; a form of salaam",
+      "tier": "rare"
+    },
+    {
+      "name": "Ayaan",
+      "gender": "boy",
+      "origin": "Arabic",
+      "tier": "popular"
+    },
+    {
+      "name": "Azhar",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "most radiant, shining",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Azlan",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "lion",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bilal",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "water, refreshment; the first muezzin",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Danish",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "knowledge, wisdom",
+      "tier": "popular"
+    },
+    {
+      "name": "Ehsaan",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "kindness, benevolence",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Faaiqa",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "outstanding, surpassing",
+      "tier": "rare"
+    },
+    {
+      "name": "Farah",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "joy, happiness",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Faraz",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "height, elevation",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Farhan",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "happy, joyful",
+      "tier": "popular"
+    },
+    {
+      "name": "Farid",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "unique, precious",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Fatima",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "the Prophet's daughter; from 'to abstain, wean'",
+      "tier": "popular"
+    },
+    {
+      "name": "Ghulam",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "servant (of God, in compound names)",
+      "tier": "rare"
+    },
+    {
+      "name": "Gulzar",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "rose garden",
+      "tier": "rare"
+    },
+    {
+      "name": "Hadiya",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "gift, guide to righteousness",
+      "tier": "rare"
+    },
+    {
+      "name": "Hafiz",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "guardian; one who has memorised the Qur'an",
+      "tier": "rare"
+    },
+    {
+      "name": "Hamid",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "praising God, thankful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hamza",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "lion; steadfast",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Haseena",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "beautiful, virtuous",
+      "tier": "rare"
+    },
+    {
+      "name": "Hina",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "henna",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hooriya",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "a heavenly maiden, houri",
+      "tier": "rare"
+    },
+    {
+      "name": "Imran",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "a Qur'anic figure; prosperity",
+      "tier": "popular"
+    },
+    {
+      "name": "Inayat",
+      "gender": "neutral",
+      "origin": "Arabic",
+      "meaning": "grace, favour, divine help",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Intezar",
+      "gender": "boy",
+      "origin": "Urdu",
+      "meaning": "wait, anticipation",
+      "tier": "rare"
+    },
+    {
+      "name": "Iqbal",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "prosperity, approaching fortune",
+      "tier": "popular"
+    },
+    {
+      "name": "Irfan",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "knowledge, gnosis",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ismail",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "a prophet's name",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jasim",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "sturdy, resolute",
+      "tier": "rare"
+    },
+    {
+      "name": "Junaid",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "young warrior, soldier",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kausar",
+      "gender": "neutral",
+      "origin": "Arabic",
+      "meaning": "abundance; a pool of paradise",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Khadija",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "the Prophet's first wife; trustworthy",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Khalid",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "everlasting",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Laiq",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "worthy, deserving",
+      "tier": "rare"
+    },
+    {
+      "name": "Laila",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "night; the famed beloved of classic romance",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mahira",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "skilful, expert",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mehak",
+      "gender": "girl",
+      "origin": "Urdu",
+      "meaning": "fragrance",
+      "tier": "popular"
+    },
+    {
+      "name": "Meher",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "sun; kindness, affection",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Mehran",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "sun, kindness; a river of Sindh",
+      "tier": "rare"
+    },
+    {
+      "name": "Miraal",
+      "gender": "girl",
+      "origin": "Arabic",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Misbah",
+      "gender": "neutral",
+      "origin": "Arabic",
+      "meaning": "lamp, lantern",
+      "tier": "rare"
+    },
+    {
+      "name": "Mujtaba",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "chosen, selected",
+      "tier": "rare"
+    },
+    {
+      "name": "Muskan",
+      "gender": "girl",
+      "origin": "Urdu",
+      "meaning": "smile",
+      "tier": "popular"
+    },
+    {
+      "name": "Nadeem",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "friend, companion",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nadia",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "caller, tender-hearted",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nargis",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "the narcissus flower",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nasir",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "helper, protector",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nida",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "call, voice",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Noor",
+      "gender": "neutral",
+      "origin": "Arabic",
+      "meaning": "light",
+      "tier": "popular"
+    },
+    {
+      "name": "Noorjahan",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "light of the world; a Mughal empress",
+      "tier": "rare"
+    },
+    {
+      "name": "Owais",
+      "gender": "boy",
+      "origin": "Arabic",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Parveen",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "the Pleiades, a cluster of stars",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rabia",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "fourth-born; spring; a famed Sufi saint",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rafiq",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "kind friend, companion",
+      "tier": "rare"
+    },
+    {
+      "name": "Rahat",
+      "gender": "neutral",
+      "origin": "Arabic",
+      "meaning": "ease, comfort, repose",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rehana",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "a fragrant flowering plant",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rehman",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "the merciful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rida",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "contentment, acceptance",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Rukhsana",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "bright, shining",
+      "tier": "rare"
+    },
+    {
+      "name": "Sadia",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "fortunate, blessed",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Saif",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "sword",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sana",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "brilliance, radiance, praise",
+      "tier": "popular"
+    },
+    {
+      "name": "Sarwar",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "chief, leader",
+      "tier": "rare"
+    },
+    {
+      "name": "Shahid",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "witness; martyr",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shaista",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "polite, graceful",
+      "tier": "rare"
+    },
+    {
+      "name": "Shakila",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "beautiful, well-formed",
+      "tier": "rare"
+    },
+    {
+      "name": "Shama",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "candle, lamp-flame",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shirin",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "sweet, pleasant; a Persian queen of legend",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shoaib",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "a prophet's name",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Suhail",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "the star Canopus; ease",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sultan",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "ruler, authority",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sumayya",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "exalted; Islam's first woman martyr",
+      "tier": "rare"
+    },
+    {
+      "name": "Tahira",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "pure, chaste",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Tanveer",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "rays of light, enlightenment",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Uzma",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "greatest, most exalted",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Wahid",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "one, unique",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yasmeen",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "jasmine",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Yusuf",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "a prophet's name; God increases",
+      "tier": "popular"
+    },
+    {
+      "name": "Zaara",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "radiance, blossom",
+      "tier": "popular"
+    },
+    {
+      "name": "Zafar",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "victory, triumph",
+      "tier": "rare"
+    },
+    {
+      "name": "Zaheer",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "supporter, ally",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Zainab",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "a fragrant flowering tree; the Prophet's daughter",
+      "tier": "popular"
+    },
+    {
+      "name": "Zeenat",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "adornment, beauty",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Zoya",
+      "gender": "girl",
+      "origin": "Persian",
+      "meaning": "alive, loving",
+      "tier": "popular"
+    },
+    {
+      "name": "Ghulam Mohammed",
+      "gender": "boy",
+      "origin": "Urdu",
+      "meaning": "servant of Mohammed",
+      "tier": "rare"
+    },
+    {
+      "name": "Habib",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "beloved, friend",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Henna",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "henna",
+      "tier": "rare"
+    },
+    {
+      "name": "Zubeida",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "best part, elite; a princess",
+      "tier": "rare"
+    },
+    {
+      "name": "Sairaben",
+      "gender": "girl",
+      "origin": "Gujarati",
+      "tier": "rare"
+    },
+    {
+      "name": "Salma",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "safe, whole, peaceful",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shahzad",
+      "gender": "boy",
+      "origin": "Persian",
+      "meaning": "prince",
+      "tier": "rare"
+    },
+    {
+      "name": "Faiz",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "abundance, grace",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Faisal",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "decisive, one who judges",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nazia",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "proud, delightful",
+      "tier": "rare"
+    },
+    {
+      "name": "Shazia",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "aromatic, of good fragrance",
+      "tier": "rare"
+    },
+    {
+      "name": "Tabassum",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "smiling, a bloom of a smile",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Uzair",
+      "gender": "boy",
+      "origin": "Arabic",
+      "meaning": "a prophet's name",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Zoha",
+      "gender": "girl",
+      "origin": "Arabic",
+      "meaning": "morning light, dawn glow",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ambara",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "the sky, the heavens",
+      "tier": "rare"
+    },
+    {
+      "name": "Dhaval",
+      "gender": "boy",
+      "origin": "Gujarati",
+      "meaning": "white, pure",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Hetal",
+      "gender": "neutral",
+      "origin": "Gujarati",
+      "meaning": "friendly, warm-hearted",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jignesh",
+      "gender": "boy",
+      "origin": "Gujarati",
+      "meaning": "curious intellect, one who seeks to know",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Kalpesh",
+      "gender": "boy",
+      "origin": "Gujarati",
+      "meaning": "lord of the wish-fulfilling tree",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Karsan",
+      "gender": "boy",
+      "origin": "Gujarati",
+      "tier": "rare"
+    },
+    {
+      "name": "Nishith",
+      "gender": "boy",
+      "origin": "Gujarati",
+      "meaning": "of the night, born at night",
+      "tier": "rare"
+    },
+    {
+      "name": "Pankaj",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lotus, born of mud",
+      "tier": "popular"
+    },
+    {
+      "name": "Parita",
+      "gender": "girl",
+      "origin": "Gujarati",
+      "meaning": "saved, protected",
+      "tier": "rare"
+    },
+    {
+      "name": "Priyakumari",
+      "gender": "girl",
+      "origin": "Gujarati",
+      "meaning": "beloved princess",
+      "tier": "rare"
+    },
+    {
+      "name": "Rushabh",
+      "gender": "boy",
+      "origin": "Gujarati",
+      "meaning": "a musical note; excellent",
+      "tier": "rare"
+    },
+    {
+      "name": "Vrajlal",
+      "gender": "boy",
+      "origin": "Gujarati",
+      "meaning": "beloved of Vraj, Krishna",
+      "tier": "rare"
+    },
+    {
+      "name": "Zaveri",
+      "gender": "neutral",
+      "origin": "Gujarati",
+      "tier": "rare"
+    },
+    {
+      "name": "Aatmaram",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "soul-self, at peace within",
+      "tier": "rare"
+    },
+    {
+      "name": "Abha",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "shine, lustre",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Alka",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "a lock of curly hair; beauty",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Anokhi",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "unique, unlike any other",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Archana",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "worship, homage",
+      "tier": "popular"
+    },
+    {
+      "name": "Chandan Kumari",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "sandalwood princess",
+      "tier": "rare"
+    },
+    {
+      "name": "Devki",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "Krishna's mother",
+      "tier": "rare"
+    },
+    {
+      "name": "Dhoomketu",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "comet, blazing tail of light",
+      "tier": "rare"
+    },
+    {
+      "name": "Gaurav",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "pride, honour",
+      "tier": "popular"
+    },
+    {
+      "name": "Geeta",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "song; the Bhagavad Gita",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Gopi",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "a devoted cowherd girl of Vrindavan",
+      "tier": "rare"
+    },
+    {
+      "name": "Hriday",
+      "gender": "neutral",
+      "origin": "Hindi",
+      "meaning": "heart",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jaswant",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "victorious, famed",
+      "tier": "rare"
+    },
+    {
+      "name": "Kalpana",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "imagination, fancy",
+      "tier": "popular"
+    },
+    {
+      "name": "Kanchanbala",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "golden-bodied",
+      "tier": "rare"
+    },
+    {
+      "name": "Kesari",
+      "gender": "neutral",
+      "origin": "Hindi",
+      "meaning": "saffron, of the lion's hue",
+      "tier": "rare"
+    },
+    {
+      "name": "Kishor",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "a young boy, youthful",
+      "tier": "popular"
+    },
+    {
+      "name": "Kishori",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "a young girl, youthful",
+      "tier": "rare"
+    },
+    {
+      "name": "Lakhan",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "a name of Lakshmana in folk tradition",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Madhubala",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "sweet girl, honey-sweet",
+      "tier": "rare"
+    },
+    {
+      "name": "Mahendra",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "great lord, lord of Indra",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Munna",
+      "gender": "neutral",
+      "origin": "Hindi",
+      "meaning": "dear little one",
+      "tier": "rare"
+    },
+    {
+      "name": "Nandu",
+      "gender": "neutral",
+      "origin": "Hindi",
+      "meaning": "a pet form of Nanda, joy",
+      "tier": "rare"
+    },
+    {
+      "name": "Natraj",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "king of the dance; Shiva",
+      "tier": "rare"
+    },
+    {
+      "name": "Phoolan",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "floral, blooming",
+      "tier": "rare"
+    },
+    {
+      "name": "Radhey",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "of Radha's circle; Krishna",
+      "tier": "rare"
+    },
+    {
+      "name": "Raghuvir",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "hero of the Raghu clan; Rama",
+      "tier": "rare"
+    },
+    {
+      "name": "Rajni",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "night, queen of the night",
+      "tier": "rare"
+    },
+    {
+      "name": "Rasraj",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "king of delight, of rasa",
+      "tier": "rare"
+    },
+    {
+      "name": "Roopa",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "beautiful form",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Sadhvi",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "a virtuous woman, female ascetic",
+      "tier": "rare"
+    },
+    {
+      "name": "Samrat Ashoka",
+      "gender": "boy",
+      "origin": "Hindi",
+      "tier": "rare"
+    },
+    {
+      "name": "Sangita",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "music, its assembly",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Shanti Devi",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "goddess of peace",
+      "tier": "rare"
+    },
+    {
+      "name": "Sitaram",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "Sita and Rama together",
+      "tier": "rare"
+    },
+    {
+      "name": "Sushil",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "of good conduct",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Swami",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "lord, master",
+      "tier": "rare"
+    },
+    {
+      "name": "Tulika",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "a painter's brush; a weighing scale",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Upendra",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "younger brother of Indra; a name of Vishnu",
+      "tier": "rare"
+    },
+    {
+      "name": "Vijayalakshmi",
+      "gender": "girl",
+      "origin": "Hindi",
+      "meaning": "Lakshmi of victory",
+      "tier": "rare"
+    },
+    {
+      "name": "Vinod Kumar",
+      "gender": "boy",
+      "origin": "Hindi",
+      "tier": "rare"
+    },
+    {
+      "name": "Aditya Pratap",
+      "gender": "boy",
+      "origin": "Hindi",
+      "tier": "rare"
+    },
+    {
+      "name": "Amritanshu",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "ray of nectar, the moon",
+      "tier": "rare"
+    },
+    {
+      "name": "Anadi",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "without beginning, eternal",
+      "tier": "rare"
+    },
+    {
+      "name": "Ashutosh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "easily pleased; a name of Shiva",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Bhuvan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the world, dwelling",
+      "tier": "rare"
+    },
+    {
+      "name": "Charuchandra",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "beautiful moon",
+      "tier": "rare"
+    },
+    {
+      "name": "Damodardas",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "servant of Damodar, of Krishna",
+      "tier": "rare"
+    },
+    {
+      "name": "Dayanidhi",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "treasure of compassion",
+      "tier": "rare"
+    },
+    {
+      "name": "Devadatta",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "given by the gods",
+      "tier": "rare"
+    },
+    {
+      "name": "Dinbandhu",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "friend of the poor",
+      "tier": "rare"
+    },
+    {
+      "name": "Giridhari",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "hill-lifter; a name of Krishna",
+      "tier": "rare"
+    },
+    {
+      "name": "Harihar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "Vishnu and Shiva conjoined",
+      "tier": "rare"
+    },
+    {
+      "name": "Hiralal",
+      "gender": "boy",
+      "origin": "Gujarati",
+      "meaning": "diamond-beloved",
+      "tier": "rare"
+    },
+    {
+      "name": "Jagadish",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the world",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Jagannath",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of the world; deity of Puri",
+      "tier": "rare"
+    },
+    {
+      "name": "Jaladhi",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "of the sea, ocean-born",
+      "tier": "rare"
+    },
+    {
+      "name": "Kamalakar",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "a lake of lotuses",
+      "tier": "rare"
+    },
+    {
+      "name": "Kirtan",
+      "gender": "neutral",
+      "origin": "Sanskrit",
+      "meaning": "devotional singing",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Krittibas",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "the poet who rendered the Ramayana in Bengali",
+      "tier": "rare"
+    },
+    {
+      "name": "Madhusudhan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "slayer of the demon Madhu; Krishna",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Nabinchandra",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "new moon",
+      "tier": "rare"
+    },
+    {
+      "name": "Narayan Das",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "servant of Narayana",
+      "tier": "rare"
+    },
+    {
+      "name": "Panchanan",
+      "gender": "boy",
+      "origin": "Bengali",
+      "meaning": "five-faced one; a name of Shiva",
+      "tier": "rare"
+    },
+    {
+      "name": "Paramananda",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "supreme bliss",
+      "tier": "rare"
+    },
+    {
+      "name": "Radheshyam",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "Radha and Krishna as one",
+      "tier": "rare"
+    },
+    {
+      "name": "Ramakant",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "beloved of Rama; a name of Vishnu",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Ramdhari",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "bearer of Rama; a poet's name",
+      "tier": "rare"
+    },
+    {
+      "name": "Sarvesh",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "lord of all",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Satyanarayan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "Vishnu as truth itself",
+      "tier": "rare"
+    },
+    {
+      "name": "Satyaprakash",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "light of truth",
+      "tier": "rare"
+    },
+    {
+      "name": "Shyam",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "dark, dark-blue; a name of Krishna",
+      "tier": "popular"
+    },
+    {
+      "name": "Shyamal",
+      "gender": "neutral",
+      "origin": "Bengali",
+      "meaning": "dark-hued, of Krishna's colour",
+      "tier": "rare"
+    },
+    {
+      "name": "Trailokya",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "of the three worlds",
+      "tier": "rare"
+    },
+    {
+      "name": "Tribhuvan",
+      "gender": "boy",
+      "origin": "Sanskrit",
+      "meaning": "the three worlds",
+      "tier": "rare"
+    },
+    {
+      "name": "Vasudha",
+      "gender": "girl",
+      "origin": "Sanskrit",
+      "meaning": "the earth, bearer of wealth",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Veer",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "brave, warrior",
+      "tier": "uncommon"
+    },
+    {
+      "name": "Vedvyas",
+      "gender": "boy",
+      "origin": "Hindi",
+      "meaning": "the sage Vyasa, compiler of the Vedas",
+      "tier": "rare"
+    },
+    {
+      "name": "Yugal",
+      "gender": "neutral",
+      "origin": "Hindi",
+      "meaning": "a pair, couple",
+      "tier": "rare"
+    }
+  ]
+}
