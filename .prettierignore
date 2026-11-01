@@ -9,3 +9,8 @@ apps/api/drizzle/meta/
 
 # generated data-platform artifacts
 data/merge-report.json
+
+# local agent workspace state (large git snapshots)
+.local
+# orchestrator plan dumps
+p*.json
