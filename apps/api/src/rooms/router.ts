@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { randomUUID } from 'node:crypto';
 import { eq, inArray, sql } from 'drizzle-orm';
 import { SqliteError } from 'better-sqlite3';
 import { z } from 'zod';
@@ -8,12 +9,15 @@ import { ApiError, type ValidationErrorDetail } from '../errors.js';
 import { validate } from '../validate.js';
 import { CODE_LENGTH, CODE_PATTERN, MAX_CODE_ATTEMPTS, generateRoomCode } from './codes.js';
 import { roomConfigSchema, type RoomConfig } from './config.js';
+import { MAX_MEMBERS, joinBodySchema } from './members.js';
 
 /**
  * Rooms API.
  *
- * POST /api/rooms      create a room from a config, mint a unique pairing code
- * GET  /api/rooms/:code  fetch a room with its member count and config
+ * POST /api/rooms             create a room from a config, mint a unique pairing code
+ * GET  /api/rooms/:code       fetch a room with its member count and config
+ * POST /api/rooms/:code/join  join as a member (max 2 per room)
+ * GET  /api/rooms/:code/members  list members ordered by joinedAt
  */
 
 export interface RoomDto {
@@ -21,6 +25,12 @@ export interface RoomDto {
   code: string;
   config: RoomConfig;
   createdAt: string;
+}
+
+export interface MemberDto {
+  memberId: string;
+  nickname: string;
+  joinedAt: string;
 }
 
 export interface RoomsRouterOptions {
@@ -40,6 +50,18 @@ function toRoomDto(room: schema.Room): RoomDto {
     code: room.code,
     config: room.settings.config as RoomConfig,
     createdAt: room.createdAt.toISOString(),
+  };
+}
+
+/**
+ * Member identity handle: the UUID minted at join time and stored in the
+ * members.token column. Clients keep it and present it as their memberId.
+ */
+function toMemberDto(member: schema.Member): MemberDto {
+  return {
+    memberId: member.token,
+    nickname: member.label,
+    joinedAt: member.createdAt.toISOString(),
   };
 }
 
@@ -103,6 +125,14 @@ function countMembers(db: Db, roomId: number): number {
   return row?.n ?? 0;
 }
 
+function findRoomOrThrow(db: Db, code: string): schema.Room {
+  const room = db.select().from(schema.rooms).where(eq(schema.rooms.code, code)).get();
+  if (!room) {
+    throw new ApiError(404, 'room_not_found', `No room with code '${code}'`);
+  }
+  return room;
+}
+
 export function createRoomsRouter(db: Db, options: RoomsRouterOptions = {}): Router {
   const nextCode = options.generateCode ?? generateRoomCode;
   const router = Router();
@@ -116,15 +146,44 @@ export function createRoomsRouter(db: Db, options: RoomsRouterOptions = {}): Rou
 
   router.get('/api/rooms/:code', validate({ params: codeParamsSchema }), (req, res) => {
     const { code } = req.params as unknown as { code: string };
-    const room = db.select().from(schema.rooms).where(eq(schema.rooms.code, code)).get();
-    if (!room) {
-      throw new ApiError(404, 'room_not_found', `No room with code '${code}'`);
-    }
+    const room = findRoomOrThrow(db, code);
     res.json({
       room: toRoomDto(room),
       memberCount: countMembers(db, room.id),
       config: room.settings.config as RoomConfig,
     });
+  });
+
+  router.post(
+    '/api/rooms/:code/join',
+    validate({ params: codeParamsSchema }),
+    validate({ body: joinBodySchema }, { status: 422 }),
+    (req, res) => {
+      const { code } = req.params as unknown as { code: string };
+      const { nickname } = req.body as { nickname: string };
+      const room = findRoomOrThrow(db, code);
+      if (countMembers(db, room.id) >= MAX_MEMBERS) {
+        throw new ApiError(409, 'room_full', `Room '${code}' is full (${MAX_MEMBERS} members)`);
+      }
+      const member = db
+        .insert(schema.members)
+        .values({ roomId: room.id, label: nickname, token: randomUUID() })
+        .returning()
+        .get();
+      res.status(201).json(toMemberDto(member));
+    },
+  );
+
+  router.get('/api/rooms/:code/members', validate({ params: codeParamsSchema }), (req, res) => {
+    const { code } = req.params as unknown as { code: string };
+    const room = findRoomOrThrow(db, code);
+    const rows = db
+      .select()
+      .from(schema.members)
+      .where(eq(schema.members.roomId, room.id))
+      .orderBy(schema.members.createdAt, schema.members.id)
+      .all();
+    res.json(rows.map(toMemberDto));
   });
 
   return router;
