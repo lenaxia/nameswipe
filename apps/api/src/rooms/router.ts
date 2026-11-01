@@ -10,6 +10,7 @@ import { validate } from '../validate.js';
 import { CODE_LENGTH, CODE_PATTERN, MAX_CODE_ATTEMPTS, generateRoomCode } from './codes.js';
 import { roomConfigSchema, type RoomConfig } from './config.js';
 import { buildMemberDeck } from './deck.js';
+import { listLikes, listMatches } from './matches.js';
 import { MAX_MEMBERS, joinBodySchema } from './members.js';
 import { deleteSwipe, recordSwipe, swipeBodySchema, type SwipeBody } from './swipes.js';
 
@@ -23,6 +24,8 @@ import { deleteSwipe, recordSwipe, swipeBodySchema, type SwipeBody } from './swi
  * GET  /api/rooms/:code/members/:memberId/deck        the member's filtered, deterministically ordered deck
  * POST /api/rooms/:code/members/:memberId/swipes      record a like/nope; 201 {match} (derived)
  * DELETE /api/rooms/:code/members/:memberId/swipes/:nameId   undo a swipe; matches un-derive
+ * GET  /api/rooms/:code/matches                       the derived match list, most recent mutual like first
+ * GET  /api/rooms/:code/members/:memberId/likes       this member's likes with likedAt
  */
 
 export interface RoomDto {
@@ -261,6 +264,23 @@ export function createRoomsRouter(db: Db, options: RoomsRouterOptions = {}): Rou
       const member = findMemberOrThrow(db, room, code, memberId);
       deleteSwipe(db, member, nameId);
       res.status(204).send();
+    },
+  );
+
+  router.get('/api/rooms/:code/matches', validate({ params: codeParamsSchema }), (req, res) => {
+    const { code } = req.params as unknown as { code: string };
+    const room = findRoomOrThrow(db, code);
+    res.json(listMatches(db, room));
+  });
+
+  router.get(
+    '/api/rooms/:code/members/:memberId/likes',
+    validate({ params: memberDeckParamsSchema }),
+    (req, res) => {
+      const { code, memberId } = req.params as unknown as { code: string; memberId: string };
+      const room = findRoomOrThrow(db, code);
+      const member = findMemberOrThrow(db, room, code, memberId);
+      res.json(listLikes(db, room, member));
     },
   );
 

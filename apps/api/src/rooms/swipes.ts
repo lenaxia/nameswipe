@@ -73,18 +73,34 @@ export interface DerivedMatch {
   display: string;
 }
 
+/** A derived match plus the moment it came to be. */
+export interface DerivedMatchRow extends DerivedMatch {
+  /**
+   * The LATER of the two likes' createdAt values — the instant the second
+   * like landed and the pair became a match. At most 2 like rows per name
+   * can exist in a room (capacity 2 + the member/name uniqueness), so
+   * "later" is exactly the second like.
+   */
+  matchedAt: Date;
+}
+
 /**
  * THE derived-match query — the single source of truth for what "matched"
  * means. Returns every name that distinct members of this room have BOTH
  * liked (room capacity is 2, so >= 2 distinct likers == both members),
  * computed fresh from the swipes rows on every call. Never cached, never
  * stored — an undo between two calls is reflected by the very next call.
+ *
+ * Rows are ordered by (nameId asc) — a stable identity order callers can
+ * re-sort freely (the matches endpoint orders by recency; the swipes
+ * consistency helper orders by display).
  */
-export function findDerivedMatches(db: Db, room: schema.Room): DerivedMatch[] {
+export function findDerivedMatchRows(db: Db, room: schema.Room): DerivedMatchRow[] {
   const rows = db
     .select({
       nameId: schema.swipes.nameId,
       memberId: schema.swipes.memberId,
+      createdAt: schema.swipes.createdAt,
       display: schema.names.display,
     })
     .from(schema.swipes)
@@ -93,19 +109,29 @@ export function findDerivedMatches(db: Db, room: schema.Room): DerivedMatch[] {
     .where(and(eq(schema.members.roomId, room.id), eq(schema.swipes.direction, 'like')))
     .all();
 
-  const likers = new Map<number, { display: string; members: Set<number> }>();
+  const likers = new Map<number, { display: string; members: Set<number>; latest: Date }>();
   for (const row of rows) {
     let entry = likers.get(row.nameId);
     if (!entry) {
-      entry = { display: row.display, members: new Set<number>() };
+      entry = { display: row.display, members: new Set<number>(), latest: row.createdAt };
       likers.set(row.nameId, entry);
     }
     entry.members.add(row.memberId);
+    if (row.createdAt > entry.latest) {
+      entry.latest = row.createdAt;
+    }
   }
 
   return [...likers.entries()]
     .filter(([, entry]) => entry.members.size >= 2)
-    .map(([nameId, entry]) => ({ nameId, display: entry.display }))
+    .map(([nameId, entry]) => ({ nameId, display: entry.display, matchedAt: entry.latest }))
+    .sort((a, b) => a.nameId - b.nameId);
+}
+
+/** The minimal match shape (identity only), display-sorted — swipes' flag-consistency view. */
+export function findDerivedMatches(db: Db, room: schema.Room): DerivedMatch[] {
+  return findDerivedMatchRows(db, room)
+    .map(({ nameId, display }) => ({ nameId, display }))
     .sort((a, b) => a.display.localeCompare(b.display) || a.nameId - b.nameId);
 }
 
