@@ -13,3 +13,4 @@ apps/api/drizzle/meta/
 
 # generated data-platform artifacts
 data/merge-report.json
+data/samples/merge-report.json

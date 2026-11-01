@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { randomUUID } from 'node:crypto';
-import { eq, inArray, sql } from 'drizzle-orm';
+import { and, eq, inArray, sql } from 'drizzle-orm';
 import { SqliteError } from 'better-sqlite3';
 import { z } from 'zod';
 import type { Db } from '../db/client.js';
@@ -9,6 +9,7 @@ import { ApiError, type ValidationErrorDetail } from '../errors.js';
 import { validate } from '../validate.js';
 import { CODE_LENGTH, CODE_PATTERN, MAX_CODE_ATTEMPTS, generateRoomCode } from './codes.js';
 import { roomConfigSchema, type RoomConfig } from './config.js';
+import { buildMemberDeck } from './deck.js';
 import { MAX_MEMBERS, joinBodySchema } from './members.js';
 
 /**
@@ -18,6 +19,7 @@ import { MAX_MEMBERS, joinBodySchema } from './members.js';
  * GET  /api/rooms/:code       fetch a room with its member count and config
  * POST /api/rooms/:code/join  join as a member (max 2 per room)
  * GET  /api/rooms/:code/members  list members ordered by joinedAt
+ * GET  /api/rooms/:code/members/:memberId/deck  the member's filtered, deterministically ordered deck
  */
 
 export interface RoomDto {
@@ -116,6 +118,10 @@ function insertRoom(db: Db, config: RoomConfig, nextCode: () => string): schema.
   );
 }
 
+const memberDeckParamsSchema = codeParamsSchema.extend({
+  memberId: z.string().min(1, 'memberId must not be empty'),
+});
+
 function countMembers(db: Db, roomId: number): number {
   const row = db
     .select({ n: sql<number>`count(*)` })
@@ -185,6 +191,27 @@ export function createRoomsRouter(db: Db, options: RoomsRouterOptions = {}): Rou
       .all();
     res.json(rows.map(toMemberDto));
   });
+
+  router.get(
+    '/api/rooms/:code/members/:memberId/deck',
+    validate({ params: memberDeckParamsSchema }),
+    (req, res) => {
+      const { code, memberId } = req.params as unknown as { code: string; memberId: string };
+      const room = findRoomOrThrow(db, code);
+      // memberId is the member's token handle (see toMemberDto). A token that
+      // resolves to no member of THIS room — unknown, or belonging to another
+      // room — is the same 404.
+      const member = db
+        .select()
+        .from(schema.members)
+        .where(and(eq(schema.members.roomId, room.id), eq(schema.members.token, memberId)))
+        .get();
+      if (!member) {
+        throw new ApiError(404, 'member_not_found', `No member '${memberId}' in room '${code}'`);
+      }
+      res.json(buildMemberDeck(db, room, member));
+    },
+  );
 
   return router;
 }
