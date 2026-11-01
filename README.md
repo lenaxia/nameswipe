@@ -134,6 +134,211 @@ Pipeline rules:
 Dataset curation stories add the real `data/*.dataset.json` files with
 sources and licenses recorded in `data/sources.md`.
 
+## API reference
+
+Express app in `apps/api` (source of truth: `apps/api/src/rooms/router.ts`).
+Base URL in development: `http://localhost:4000` — the web app reaches it
+same-origin via the Vite proxy at `/api`. All bodies are JSON.
+
+### Endpoints
+
+| Method & path                                              | Purpose                                               | Success |
+| ---------------------------------------------------------- | ----------------------------------------------------- | ------- |
+| `GET /api/health`                                          | Liveness probe                                        | `200`   |
+| `POST /api/rooms`                                          | Create a room from a config; mints the pairing code   | `201`   |
+| `GET /api/rooms/:code`                                     | Room + member count + stored config                   | `200`   |
+| `POST /api/rooms/:code/join`                               | Join as a partner (max 2 per room)                    | `201`   |
+| `GET /api/rooms/:code/members`                             | Members ordered by joinedAt                           | `200`   |
+| `GET /api/rooms/:code/members/:memberId/deck`              | The member's filtered, deterministically ordered deck | `200`   |
+| `POST /api/rooms/:code/members/:memberId/swipes`           | Record a like/nope; answers `{ match }` (derived)     | `201`   |
+| `DELETE /api/rooms/:code/members/:memberId/swipes/:nameId` | Undo a swipe; any match un-derives immediately        | `204`   |
+| `GET /api/rooms/:code/matches`                             | Names both partners liked, newest mutual like first   | `200`   |
+| `GET /api/rooms/:code/members/:memberId/likes`             | This member's likes, most recent first                | `200`   |
+
+`memberId` is the opaque handle returned by join — the client keeps it and
+presents it on every member-scoped call. A room `config` is exactly:
+
+```jsonc
+{
+  "datasets": ["sample-us", "sample-nordic", "sample-es"], // ≥1 seeded dataset key
+  "genders": ["boy", "girl"], // any of boy | girl | neutral
+  "tiers": ["popular", "uncommon", "rare", "unranked"],
+  "origins": ["Old Norse"], // optional exact-match narrowing
+  "firstLetters": ["a", "b"], // optional single lowercase letters a-z
+}
+```
+
+### A full journey (curl)
+
+Seed the sample fixtures, then walk the whole flow
+(`apps/api/src/journey.test.ts` pins this exact journey end-to-end):
+
+```sh
+npm run data:seed -- --data-dir data/samples
+```
+
+1. **Create a room** — one request, both partners' filters:
+
+```sh
+curl -s -X POST http://localhost:4000/api/rooms \
+  -H 'content-type: application/json' -d '{
+    "datasets": ["sample-us", "sample-nordic", "sample-es"],
+    "genders": ["boy", "girl"],
+    "tiers": ["popular", "uncommon", "rare", "unranked"]
+  }'
+```
+
+```json
+{
+  "code": "H7K2QM",
+  "room": {
+    "id": 1,
+    "code": "H7K2QM",
+    "config": {
+      "datasets": ["sample-us", "sample-nordic", "sample-es"],
+      "genders": ["boy", "girl"],
+      "tiers": ["popular", "uncommon", "rare", "unranked"]
+    },
+    "createdAt": "2026-11-01T18:23:04.512Z"
+  }
+}
+```
+
+2. **Both partners join** with the code (`memberId` is each partner's handle):
+
+```sh
+curl -s -X POST http://localhost:4000/api/rooms/H7K2QM/join \
+  -H 'content-type: application/json' -d '{ "nickname": "Ada" }'
+```
+
+```json
+{
+  "memberId": "0f0a2f46-1cb4-4e88-9d0c-6c72d5c0c9e1",
+  "nickname": "Ada",
+  "joinedAt": "2026-11-01T18:23:41.020Z"
+}
+```
+
+3. **Fetch a deck** — every name matching the room filters, minus only what
+   THIS member already swiped (first 2 of 16 shown):
+
+```sh
+curl -s http://localhost:4000/api/rooms/H7K2QM/members/0f0a2f46-…/deck
+```
+
+```json
+{
+  "names": [
+    {
+      "nameId": 7,
+      "display": "Kai",
+      "meaning": "variously sea, victory, or fire across Nordic languages",
+      "genderTags": ["boy", "neutral"],
+      "datasets": ["sample-us", "sample-nordic"],
+      "tier": "popular"
+    },
+    {
+      "nameId": 2,
+      "display": "Emma",
+      "meaning": "whole, universal",
+      "origin": "Germanic",
+      "genderTags": ["girl"],
+      "datasets": ["sample-us"],
+      "tier": "popular"
+    }
+  ]
+}
+```
+
+4. **Swipe** — `direction` is `"like"` or `"nope"`; `match` is true the moment
+   this like completes a mutual one:
+
+```sh
+curl -s -X POST http://localhost:4000/api/rooms/H7K2QM/members/0f0a2f46-…/swipes \
+  -H 'content-type: application/json' -d '{ "nameId": 2, "direction": "like" }'
+```
+
+```json
+{ "match": false }
+```
+
+The second partner liking name 2 gets `{ "match": true }`.
+
+5. **Matches** — derived on read (never stored), newest mutual like first:
+
+```sh
+curl -s http://localhost:4000/api/rooms/H7K2QM/matches
+```
+
+```json
+{
+  "matches": [
+    {
+      "nameId": 2,
+      "display": "Emma",
+      "meaning": "whole, universal",
+      "origin": "Germanic",
+      "matchedAt": "2026-11-01T18:25:12.301Z"
+    }
+  ]
+}
+```
+
+6. **Undo** — delete a swipe; any match it sustained is gone by the next read:
+
+```sh
+curl -s -X DELETE \
+  http://localhost:4000/api/rooms/H7K2QM/members/0f0a2f46-…/swipes/2 -i
+# HTTP/1.1 204 No Content
+```
+
+Re-liking afterwards simply re-derives the match (`{ "match": true }` again).
+
+7. **Likes** — one partner's own likes with timestamps, most recent first:
+
+```sh
+curl -s http://localhost:4000/api/rooms/H7K2QM/members/0f0a2f46-…/likes
+```
+
+```json
+{
+  "likes": [
+    {
+      "nameId": 2,
+      "display": "Emma",
+      "meaning": "whole, universal",
+      "likedAt": "2026-11-01T18:27:55.104Z"
+    }
+  ]
+}
+```
+
+### Error contract
+
+Every error is one envelope — `code` and `message` always, `details`
+(field-level `issues`) only on `validation_error`:
+
+```json
+{
+  "error": {
+    "code": "validation_error",
+    "message": "Invalid room config",
+    "details": [{ "path": "datasets", "message": "Unknown dataset: 'ghost'" }]
+  }
+}
+```
+
+| Status | `code`                 | When                                                    |
+| ------ | ---------------------- | ------------------------------------------------------- |
+| `404`  | `room_not_found`       | No room with that code                                  |
+| `404`  | `member_not_found`     | memberId unknown, or a member of a different room       |
+| `404`  | `name_not_found`       | No canonical name with that nameId                      |
+| `404`  | `swipe_not_found`      | Undo of a swipe that was never made (or already undone) |
+| `409`  | `room_full`            | A third join on a 2-member room                         |
+| `409`  | `swipe_already_exists` | Re-swiping a name — undo first                          |
+| `422`  | `validation_error`     | Body/config fails schema validation (with `details`)    |
+| `422`  | `name_not_in_room`     | Name exists but belongs to none of the room's datasets  |
+
 ## Testing
 
 Vitest everywhere: the web workspace uses React Testing Library with jsdom;
